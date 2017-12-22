@@ -19,37 +19,37 @@ import           Game
 import           Network.HTTP.Client
 
 parseGames :: Day -> Value -> Parser [Game]
-parseGames today = withObject "Games" $ \v ->
-  mapMaybe (parseMaybe (parseGame today) . Object) <$> (v .: "included")
+parseGames day =
+  withObject "Games" $ \v ->
+    mapMaybe (parseMaybe (parseGame day) . Object) <$> (v .: "included")
 
 parseGame :: Day -> Value -> Parser Game
-parseGame day = withObject "Game" $ \v -> do
-  attrs <- v .: "attributes"
-  sku <- attrs .: "default-sku-id"
-  prices <- parsePrices sku attrs
-  Game
-    <$> return sku
-    <*> attrs .: "name"
-    <*> attrs .: "platforms"
-    <*> parseFullPrice day prices
-    <*> parseSalePrice day prices
+parseGame day =
+  withObject "Game" $ \v -> do
+    attrs <- v .: "attributes"
+    sku <- attrs .: "default-sku-id"
+    name <- attrs .: "name"
+    platforms <- attrs .: "platforms"
+    prices <- parsePrices day sku attrs
+    return
+      Game {sku = sku, name = name, platforms = platforms, history = [prices]}
 
-parsePrices :: Text -> Object -> Parser Object
-parsePrices sku attrs = do
+parsePrices :: Day -> Text -> Object -> Parser Prices
+parsePrices day sku attrs = do
   skus <- attrs .: "skus" :: Parser [Object]
-  maybe (fail "No matching sku.") pure (find (matches sku) skus)
-    >>= (.: "prices")
-    >>= (.: "non-plus-user")
+  prices <-
+    maybe (fail "No matching sku.") pure (find (matches sku) skus) >>=
+    (.: "prices") >>=
+    (.: "non-plus-user")
+  actual <- parsePrice "actual-price" prices
+  upsell <- parsePrice "upsell-price" prices
+  strikethrough <- parsePrice "strikethrough-price" prices
+  return
+    Prices
+    {day = day, actual = actual, upsell = upsell, strikethrough = strikethrough}
   where
     matches id o = HM.lookup "id" o == Just (String id)
-
-parseFullPrice :: Day -> Object -> Parser PriceChanges
-parseFullPrice day prices = Map.singleton day <$>
- (prices .: "actual-price" >>= (.: "value"))
-
-parseSalePrice :: Day -> Object -> Parser PriceChanges
-parseSalePrice day prices = Map.singleton day <$>
-  (prices .:? "upsell-price" >>= maybe (pure Nothing) (.: "value"))
+    parsePrice tag prices = prices .:? tag >>= maybe (pure Nothing) (.: "value")
 
 gamesUrlAtStart :: Int -> String
 gamesUrlAtStart start =

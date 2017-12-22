@@ -4,7 +4,7 @@
 module Game
   ( Game(..)
   , Games
-  , PriceChanges
+  , Prices(..)
   , update
   ) where
 
@@ -19,32 +19,36 @@ import           GHC.Generics
 
 type Games = Map Text Game
 
-type PriceChanges = Map Day (Maybe Int)
+data Prices = Prices
+  { day           :: Day
+  , actual        :: Maybe Int
+  , upsell        :: Maybe Int
+  , strikethrough :: Maybe Int
+  } deriving (Show, Eq, Generic)
 
 data Game = Game
   { sku       :: Text
   , name      :: Text
   , platforms :: [Text]
-  , sales     :: PriceChanges
-  , prices    :: PriceChanges
+  , history   :: [Prices]
   } deriving (Show, Generic)
+
+$(deriveJSON defaultOptions ''Prices)
 
 $(deriveJSON defaultOptions ''Game)
 
 update :: Games -> [Game] -> Games
-update = foldl (\games game -> Map.insertWith update' (sku game) game games)
+update =
+  foldl
+    (\games game ->
+       Map.insertWith
+         (\new old -> new {history = updateHistory history old new})
+         (sku game)
+         game
+         games)
   where
-    update' :: Game -> Game -> Game
-    update' new old =
-      new
-      { prices = updateChanges prices old new
-      , sales = updateChanges sales old new
-      }
-
-    updateChanges :: (Game -> PriceChanges) -> Game -> Game -> PriceChanges
-    updateChanges f a b =
-      let prices = Map.toList $ Map.union (f a) (f b)
-      in Map.fromList . map head . groupByPrice . sortByDay $ prices
-
-    sortByDay = sortBy (on compare fst)
-    groupByPrice = groupBy (on (==) snd)
+    updateHistory :: (Game -> [Prices]) -> Game -> Game -> [Prices]
+    updateHistory f a b = map head . groupByPrice . sortByDay $ f a ++ f b
+    sortByDay = sortBy (on compare day)
+    groupByPrice = groupBy (on (==) prices)
+    prices x = [actual x, upsell x, strikethrough x]

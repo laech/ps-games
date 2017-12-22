@@ -15,7 +15,9 @@ import           System.Directory
 readDbIfExists :: FilePath -> IO (Either String Games)
 readDbIfExists dbFile = do
   exists <- doesPathExist dbFile
-  if exists then read else return $ Right Map.empty
+  if exists
+    then read
+    else return $ Right Map.empty
   where
     read = do
       file <- LazyChar8.readFile dbFile
@@ -23,12 +25,21 @@ readDbIfExists dbFile = do
       return $ Map.fromList . fmap (\x -> (sku x, x)) <$> games
 
 writeDb :: FilePath -> Games -> IO ()
-writeDb dbFile db =
-  LazyChar8.writeFile dbFile json
+writeDb dbFile db = LazyChar8.writeFile dbFile json
   where
     json = encodePretty' conf (Map.elems db)
     conf =
       defConfig
       { confIndent = Spaces 2
-      , confCompare = keyOrder ["sku", "name", "platforms", "prices", "sales"]
+      , confCompare =
+          keyOrder
+            [ "sku"
+            , "name"
+            , "platforms"
+            , "history"
+            , "day"
+            , "upsell"
+            , "actual"
+            , "strikethrough"
+            ]
       }
