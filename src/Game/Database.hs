@@ -8,7 +8,9 @@ module Game.Database
 import           Data.Aeson
 import           Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy.Char8 as LazyChar8
+import           Data.List
 import qualified Data.Map                   as Map
+import           Data.Ord
 import           Game
 import           System.Directory
 
@@ -27,7 +29,8 @@ readDbIfExists dbFile = do
 writeDb :: FilePath -> Games -> IO ()
 writeDb dbFile db = LazyChar8.writeFile dbFile json
   where
-    json = encodePretty' conf (Map.elems db)
+    json = encodePretty' conf games
+    games = sortBy (comparing $ Down . releaseDate) $ Map.elems db
     conf =
       defConfig
       { confIndent = Spaces 2
