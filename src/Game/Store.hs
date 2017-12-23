@@ -19,23 +19,30 @@ import           Game
 import           Network.HTTP.Client
 
 parseGames :: Day -> Value -> Parser [Game]
-parseGames day =
+parseGames date =
   withObject "Games" $ \v ->
-    mapMaybe (parseMaybe (parseGame day) . Object) <$> (v .: "included")
+    mapMaybe (parseMaybe (parseGame date) . Object) <$> (v .: "included")
 
 parseGame :: Day -> Value -> Parser Game
-parseGame day =
+parseGame date =
   withObject "Game" $ \v -> do
     attrs <- v .: "attributes"
     sku <- attrs .: "default-sku-id"
     name <- attrs .: "name"
+    releaseDate <- utctDay <$> (attrs .: "release-date")
     platforms <- attrs .: "platforms"
-    prices <- parsePrices day sku attrs
+    prices <- parsePrices date sku attrs
     return
-      Game {sku = sku, name = name, platforms = platforms, history = [prices]}
+      Game
+      { sku = sku
+      , name = name
+      , releaseDate = releaseDate
+      , platforms = platforms
+      , history = [prices]
+      }
 
 parsePrices :: Day -> Text -> Object -> Parser Prices
-parsePrices day sku attrs = do
+parsePrices date sku attrs = do
   skus <- attrs .: "skus" :: Parser [Object]
   prices <-
     maybe (fail "No matching sku.") pure (find (matches sku) skus) >>=
@@ -46,7 +53,11 @@ parsePrices day sku attrs = do
   strikethrough <- parsePrice "strikethrough-price" prices
   return
     Prices
-    {day = day, actual = actual, upsell = upsell, strikethrough = strikethrough}
+    { date = date
+    , actual = actual
+    , upsell = upsell
+    , strikethrough = strikethrough
+    }
   where
     matches id o = HM.lookup "id" o == Just (String id)
     parsePrice tag prices = prices .:? tag >>= maybe (pure Nothing) (.: "value")

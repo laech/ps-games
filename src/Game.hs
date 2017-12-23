@@ -20,17 +20,18 @@ import           GHC.Generics
 type Games = Map Text Game
 
 data Prices = Prices
-  { day           :: Day
+  { date          :: Day
   , actual        :: Maybe Int
   , upsell        :: Maybe Int
   , strikethrough :: Maybe Int
   } deriving (Show, Eq, Generic)
 
 data Game = Game
-  { sku       :: Text
-  , name      :: Text
-  , platforms :: [Text]
-  , history   :: [Prices]
+  { sku         :: Text
+  , name        :: Text
+  , releaseDate :: Day
+  , platforms   :: [Text]
+  , history     :: [Prices]
   } deriving (Show, Generic)
 
 $(deriveJSON defaultOptions ''Prices)
@@ -49,6 +50,6 @@ update =
   where
     updateHistory :: (Game -> [Prices]) -> Game -> Game -> [Prices]
     updateHistory f a b = map head . groupByPrice . sortByDay $ f a ++ f b
-    sortByDay = sortBy (on compare day)
+    sortByDay = sortBy (on compare date)
     groupByPrice = groupBy (on (==) prices)
     prices x = [actual x, upsell x, strikethrough x]

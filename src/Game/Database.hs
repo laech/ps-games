@@ -35,9 +35,10 @@ writeDb dbFile db = LazyChar8.writeFile dbFile json
           keyOrder
             [ "sku"
             , "name"
+            , "releaseDate"
             , "platforms"
             , "history"
-            , "day"
+            , "date"
             , "upsell"
             , "actual"
             , "strikethrough"
