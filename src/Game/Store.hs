@@ -30,7 +30,7 @@ parseGame date =
     sku <- attrs .: "default-sku-id"
     name <- attrs .: "name"
     releaseDate <- utctDay <$> (attrs .: "release-date")
-    platforms <- attrs .: "platforms"
+    platforms <- sort <$> attrs .: "platforms"
     prices <- parsePrices date sku attrs
     return
       Game
