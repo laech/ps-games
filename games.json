@@ -120,6 +120,36 @@
     ]
   },
   {
+    "sku": "EP0001-CUSA00161_00-THECREWSCEE00001-E006",
+    "name": "The Crew",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0001-CUSA00161_00-THECREWULTIEDIPO-E002",
+    "name": "The Crew® Ultimate Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0001-CUSA00161_00-THECREWULTIEDIPO-E003",
     "name": "The Crew® Ultimate Edition",
     "platforms": [
@@ -405,6 +435,21 @@
     ]
   },
   {
+    "sku": "EP0001-CUSA01179_00-RABBIDSGOLDEDITI-E001",
+    "name": "RABBIDS INVASION - GOLD EDITION",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 9795,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0001-CUSA01179_00-RABBIDSGOLDEDITI-E002",
     "name": "RABBIDS INVASION - GOLD EDITION",
     "platforms": [
@@ -600,6 +645,21 @@
     ]
   },
   {
+    "sku": "EP0001-CUSA01911_00-HASBRODGTALBUNDL-E001",
+    "name": "Hasbro Family Fun Pack - Super Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 9695,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0001-CUSA01911_00-HASBRODGTALBUNDL-E002",
     "name": "Hasbro Family Fun Pack - Super Edition",
     "platforms": [
@@ -790,6 +850,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 5995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0001-CUSA03312_00-HASBROGAMESPS401-E001",
+    "name": "HASBRO FAMILY FUN PACK",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     ]
@@ -7201,6 +7276,21 @@
     ]
   },
   {
+    "sku": "EP0031-CUSA04853_00-FFFADF0000000EU1-E002",
+    "name": "Fairy Fencer F: Advent Dark Force",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0031-CUSA06927_00-GAMEDARKROSEEU00-E002",
     "name": "Dark Rose Valkyrie",
     "platforms": [
@@ -10022,6 +10112,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA00087_00-STREUHG4TRIAL001-E001",
+    "name": "STRIDER",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA00087_00-STREUHG4TRIAL001-E003",
     "name": "STRIDER",
     "platforms": [
@@ -10067,6 +10172,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA01022_00-DMCDEFINITIVE000-E001",
+    "name": "DmC Devil May Cry: Definitive Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA01022_00-DMCDEFINITIVE000-E002",
     "name": "DmC Devil May Cry: Definitive Edition",
     "platforms": [
@@ -10077,6 +10197,21 @@
         "day": "2017-12-22",
         "upsell": 2098,
         "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0102-CUSA01067_00-BHRHDPS400000001-E001",
+    "name": "Resident Evil",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     ]
@@ -10127,6 +10262,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA01708_00-MAINRDOBXXXX0000-E001",
+    "name": "Devil May Cry 4 Special Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA01708_00-MAINRDOBXXXX0000-E002",
     "name": "Devil May Cry 4 Special Edition",
     "platforms": [
@@ -10142,6 +10292,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA01708_00-MAINRDOBXXXX0009-E001",
+    "name": "DMC4SE Demon Hunter Bundle",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5795,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA01708_00-MAINRDOBXXXX0009-E002",
     "name": "DMC4SE Demon Hunter Bundle",
     "platforms": [
@@ -10152,6 +10317,21 @@
         "day": "2017-12-22",
         "upsell": 2318,
         "actual": 5795,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0102-CUSA01815_00-BH0HD00000000001-E001",
+    "name": "Resident Evil 0",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     ]
@@ -10202,6 +10382,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA03086_00-BHS0000000000001-E001",
+    "name": "Umbrella Corps",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA03086_00-BHS0000000000001-E002",
     "name": "Umbrella Corps",
     "platforms": [
@@ -10212,6 +10407,21 @@
         "day": "2017-12-22",
         "upsell": 1223,
         "actual": 4895,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0102-CUSA03086_00-BHSDELUXE0000001-E001",
+    "name": "Umbrella Corps Deluxe Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6395,
         "strikethrough": null
       }
     ]
@@ -10292,6 +10502,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA04671_00-DEADRISING001PS4-E001",
+    "name": "DEAD RISING",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA04671_00-DEADRISING001PS4-E002",
     "name": "DEAD RISING",
     "platforms": [
@@ -10302,6 +10527,21 @@
         "day": "2017-12-22",
         "upsell": 1398,
         "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0102-CUSA04671_00-DRTRIPLEBUND0000-E001",
+    "name": "DEAD RISING Triple Bundle Pack",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     ]
@@ -10322,6 +10562,21 @@
     ]
   },
   {
+    "sku": "EP0102-CUSA04672_00-DEADRISING002PS4-E001",
+    "name": "DEAD RISING 2",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP0102-CUSA04672_00-DEADRISING002PS4-E002",
     "name": "DEAD RISING 2",
     "platforms": [
@@ -10332,6 +10587,21 @@
         "day": "2017-12-22",
         "upsell": 1398,
         "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP0102-CUSA04673_00-DEADRISIN2OTRPS4-E001",
+    "name": "DEAD RISING 2 Off The Record",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     ]
@@ -20371,6 +20641,21 @@
     ]
   },
   {
+    "sku": "EP1003-CUSA00320_00-WOLFENSTEIN00001-E006",
+    "name": "Wolfenstein: The New Order",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1003-CUSA00375_00-THEEVILWITHINROW-E004",
     "name": "The Evil Within",
     "platforms": [
@@ -20381,6 +20666,36 @@
         "day": "2017-12-22",
         "upsell": 1048,
         "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP1003-CUSA00375_00-THEEVILWITHINROW-E005",
+    "name": "The Evil Within",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP1003-CUSA01604_00-WOLFENSTEINBLOOD-E001",
+    "name": "Wolfenstein: The Old Blood",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5495,
         "strikethrough": null
       }
     ]
@@ -22441,6 +22756,21 @@
     ]
   },
   {
+    "sku": "EP1006-NPEJ00451_00-0000000000000111-E001",
+    "name": "STAR WARS™ PS4™ Mega Bundle",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5695,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1006-NPEJ00451_00-0000000000000111-E002",
     "name": "STAR WARS™ PS4™ Mega Bundle",
     "platforms": [
@@ -23486,6 +23816,21 @@
     ]
   },
   {
+    "sku": "EP1018-CUSA03397_00-LSWDELUXEEDITION-E001",
+    "name": "LEGO® Star Wars™: The Force Awakens Deluxe Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1018-CUSA03397_00-LSWDELUXEEDITION-E002",
     "name": "LEGO® Star Wars™: The Force Awakens Deluxe Edition",
     "platforms": [
@@ -23496,6 +23841,21 @@
         "day": "2017-12-22",
         "upsell": 3598,
         "actual": 11995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP1018-CUSA03397_00-LSWTFAPREORDER00-E001",
+    "name": "LEGO® Star Wars™: The Force Awakens",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     ]
@@ -23527,6 +23887,21 @@
         "upsell": null,
         "actual": 3595,
         "strikethrough": 10495
+      }
+    ]
+  },
+  {
+    "sku": "EP1018-CUSA03991_00-DLEEGAME00000000-E001",
+    "name": "Dying Light: The Following - Enhanced Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
       }
     ]
   },
@@ -24586,6 +24961,36 @@
     ]
   },
   {
+    "sku": "EP1024-CUSA05473_00-EXISTARCHIVE0004-E002",
+    "name": "Exist Archive: The Other Side of the Sky",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 9695,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP1024-CUSA06937_00-ZEROESCAPE999ZEN-E001",
+    "name": "Zero Escape: The Nonary Games",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1024-CUSA06937_00-ZEROESCAPE999ZEN-E002",
     "name": "Zero Escape: The Nonary Games",
     "platforms": [
@@ -25192,6 +25597,21 @@
     ]
   },
   {
+    "sku": "EP1063-CUSA04630_00-0000000000000000-E002",
+    "name": "Grand Kingdom",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1063-CUSA04630_00-0000000000000000-E003",
     "name": "Grand Kingdom",
     "platforms": [
@@ -25207,6 +25627,21 @@
     ]
   },
   {
+    "sku": "EP1063-CUSA05261_00-PSYCHOPASSPS4000-E001",
+    "name": "PSYCHO-PASS: Mandatory Happiness",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP1063-CUSA05261_00-PSYCHOPASSPS4000-E002",
     "name": "PSYCHO-PASS: Mandatory Happiness",
     "platforms": [
@@ -25217,6 +25652,21 @@
         "day": "2017-12-22",
         "upsell": 3598,
         "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP1063-CUSA05262_00-ODINSPHERELE0000-E001",
+    "name": "Odin Sphere Leifthrasir",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     ]
@@ -30524,6 +30974,36 @@
     ]
   },
   {
+    "sku": "EP2026-CUSA01009_00-TWAU00000000GAME-E003",
+    "name": "The Wolf Among Us",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP2026-CUSA01010_00-TWDS20000000GAME-E001",
+    "name": "The Walking Dead: Season Two",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP2026-CUSA01010_00-TWDS20000000GAME-E002",
     "name": "The Walking Dead: Season Two",
     "platforms": [
@@ -30549,6 +31029,36 @@
         "day": "2017-12-22",
         "upsell": 998,
         "actual": 3995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP2026-CUSA01011_00-TWDS10000000GAME-E003",
+    "name": "The Walking Dead: The Complete First Season",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP2026-CUSA01427_00-GT00010000000000-E003",
+    "name": "Game of Thrones - Season Pass",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3240,
         "strikethrough": null
       }
     ]
@@ -30644,6 +31154,21 @@
     ]
   },
   {
+    "sku": "EP2026-CUSA05603_00-BATM000000000000-E001",
+    "name": "Batman - The Telltale Series - Season Pass",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP2026-CUSA05603_00-BATM000000000000-E002",
     "name": "Batman - The Telltale Series - Season Pass",
     "platforms": [
@@ -30689,6 +31214,21 @@
     ]
   },
   {
+    "sku": "EP2026-CUSA06926_00-WDS3SP0000000000-E001",
+    "name": "The Walking Dead: A New Frontier - Season Pass",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP2026-CUSA06926_00-WDS3SP0000000000-E002",
     "name": "The Walking Dead: A New Frontier - Season Pass",
     "platforms": [
@@ -30729,6 +31269,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 975,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP2026-CUSA09155_00-BAT2000000000SSP-E001",
+    "name": "Batman: The Enemy Within - Season Pass",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4895,
         "strikethrough": null
       }
     ]
@@ -31105,6 +31660,21 @@
         "upsell": null,
         "actual": 3995,
         "strikethrough": 15995
+      }
+    ]
+  },
+  {
+    "sku": "EP2026-NPEJ00465_00-TUSB000000000000-E001",
+    "name": "The Telltale Undead Survival Bundle",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
       }
     ]
   },
@@ -34431,6 +35001,21 @@
     ]
   },
   {
+    "sku": "EP2377-CUSA05308_00-COMMANDELUXEPACK-E001",
+    "name": "Elite Dangerous: Commander Deluxe Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP2377-CUSA05308_00-COMMANDELUXEPACK-E002",
     "name": "Elite Dangerous: Commander Deluxe Edition",
     "platforms": [
@@ -34441,6 +35026,21 @@
         "day": "2017-12-22",
         "upsell": 5196,
         "actual": 7995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP2377-CUSA05308_00-EDBASEGAME000000-E001",
+    "name": "Elite Dangerous",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 4295,
         "strikethrough": null
       }
     ]
@@ -35876,6 +36476,21 @@
     ]
   },
   {
+    "sku": "EP3367-CUSA08032_00-DEADBYDAYLIGHT00-E002",
+    "name": "Dead by Daylight: Special Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP3367-CUSA08032_00-DEADBYDAYLIGHT00-E004",
     "name": "Dead by Daylight: Special Edition",
     "platforms": [
@@ -35886,6 +36501,21 @@
         "day": "2017-12-22",
         "upsell": 3147,
         "actual": 6295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP3367-CUSA08490_00-RAIDWWIIVERRC001-E001",
+    "name": "RAID: World War II",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     ]
@@ -36556,6 +37186,36 @@
         "day": "2017-12-22",
         "upsell": 2748,
         "actual": 10995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4001-CUSA03648_00-DIRTRALLY0001000-E002",
+    "name": "DiRT Rally® PLUS PLAYSTATION®VR BUNDLE",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4001-CUSA03648_00-DIRTRALLYLABELNA-E001",
+    "name": "DiRT Rally",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     ]
@@ -40825,6 +41485,21 @@
     ]
   },
   {
+    "sku": "EP4062-CUSA01647_00-DEADISLANDRRGAME-E001",
+    "name": "Dead Island Retro Revenge",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4062-CUSA01647_00-DEADISLANDRRGAME-E002",
     "name": "Dead Island Retro Revenge",
     "platforms": [
@@ -40916,6 +41591,21 @@
     ]
   },
   {
+    "sku": "EP4062-CUSA03290_00-RIPTIDEGAME00000-E001",
+    "name": "Dead Island: Riptide Definitive Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4062-CUSA03290_00-RIPTIDEGAME00000-E002",
     "name": "Dead Island: Riptide Definitive Edition",
     "platforms": [
@@ -40931,6 +41621,21 @@
     ]
   },
   {
+    "sku": "EP4062-CUSA03291_00-DEADISLANDDCTL60-E001",
+    "name": "Dead Island Definitive Collection",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4062-CUSA03291_00-DEADISLANDDCTL60-E002",
     "name": "Dead Island Definitive Collection",
     "platforms": [
@@ -40941,6 +41646,21 @@
         "day": "2017-12-22",
         "upsell": 2098,
         "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4062-CUSA03291_00-DEADISLANDGAME00-E001",
+    "name": "Dead Island Definitive Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3495,
         "strikethrough": null
       }
     ]
@@ -41046,6 +41766,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4062-CUSA06995_00-ARVALKYRIE000100-E001",
+    "name": "Valkyria Revolution",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     ]
@@ -44127,6 +44862,21 @@
     ]
   },
   {
+    "sku": "EP4108-CUSA03662_00-AT1EUHDDGAME0000-E001",
+    "name": "A.O.T. Wings of Freedom",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4108-CUSA03662_00-AT1EUHDDGAME0000-E002",
     "name": "A.O.T. Wings of Freedom",
     "platforms": [
@@ -44167,6 +44917,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4108-CUSA04017_00-DARK000MASTER000-E001",
+    "name": "Nights of Azure",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     ]
@@ -44285,6 +45050,21 @@
     "history": [
       {
         "day": "2017-12-22",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4108-CUSA07903_00-STARGAMEEU000000-E001",
+    "name": "WARRIORS ALL-STARS",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
         "upsell": null,
         "actual": 10495,
         "strikethrough": null
@@ -51045,6 +51825,21 @@
     ]
   },
   {
+    "sku": "EP4295-CUSA05029_00-AI201610MR400001-E001",
+    "name": "Moto Racer 4",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4295-CUSA05029_00-AI201610MR400001-E002",
     "name": "Moto Racer 4",
     "platforms": [
@@ -51060,6 +51855,21 @@
     ]
   },
   {
+    "sku": "EP4295-CUSA05029_00-MR4DLXSEAPASEU01-E001",
+    "name": "Moto Racer 4 - Deluxe Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4295-CUSA05029_00-MR4DLXSEAPASEU01-E002",
     "name": "Moto Racer 4 - Deluxe Edition",
     "platforms": [
@@ -51070,6 +51880,21 @@
         "day": "2017-12-22",
         "upsell": 4198,
         "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4295-CUSA05545_00-SYBERIA3EU000001-E001",
+    "name": "Syberia 3",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8995,
         "strikethrough": null
       }
     ]
@@ -52218,6 +53043,21 @@
     ]
   },
   {
+    "sku": "EP4356-CUSA05164_00-MOTOGPVR46FGAME0-E002",
+    "name": "Valentino Rossi The Game",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4356-CUSA05164_00-MOTOGPVR46FGAME0-E003",
     "name": "Valentino Rossi The Game",
     "platforms": [
@@ -52233,6 +53073,21 @@
     ]
   },
   {
+    "sku": "EP4356-CUSA05164_00-MOTOGPVR46SPEEDI-E002",
+    "name": "Valentino Rossi The Game - Special Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4356-CUSA05164_00-MOTOGPVR46SPEEDI-E003",
     "name": "Valentino Rossi The Game - Special Edition",
     "platforms": [
@@ -52243,6 +53098,21 @@
         "day": "2017-12-22",
         "upsell": 3298,
         "actual": 10995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4356-CUSA05164_00-VRTGDIGITALDELUX-E002",
+    "name": "Valentino Rossi The Game - Digital Deluxe",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 13495,
         "strikethrough": null
       }
     ]
@@ -52278,6 +53148,21 @@
     ]
   },
   {
+    "sku": "EP4356-CUSA05921_00-RIDE2FULLGAME000-E001",
+    "name": "Ride 2",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4356-CUSA05921_00-RIDE2FULLGAME000-E002",
     "name": "Ride 2",
     "platforms": [
@@ -52293,6 +53178,21 @@
     ]
   },
   {
+    "sku": "EP4356-CUSA05921_00-RIDE2SPECIALED00-E001",
+    "name": "Ride 2 Special Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 14995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4356-CUSA05921_00-RIDE2SPECIALED00-E002",
     "name": "Ride 2 Special Edition",
     "platforms": [
@@ -52303,6 +53203,21 @@
         "day": "2017-12-22",
         "upsell": 4498,
         "actual": 14995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4356-CUSA06237_00-MXGP2COMPACT0000-E001",
+    "name": "MXGP2 - The Official Motocross Videogame Compact",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     ]
@@ -53175,6 +54090,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 10495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4365-CUSA05165_00-ACPCACVBUNDLE000-E001",
+    "name": "Air Conflicts: Double Pack",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     ]
@@ -54599,6 +55529,21 @@
     ]
   },
   {
+    "sku": "EP4389-CUSA01768_00-BNDGAMEALLIN2017-E001",
+    "name": "MX vs ATV All In Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4389-CUSA01768_00-BNDGAMEALLIN2017-E002",
     "name": "MX vs ATV All In Edition",
     "platforms": [
@@ -54609,6 +55554,21 @@
         "day": "2017-12-22",
         "upsell": 2747,
         "actual": 5495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4389-CUSA01768_00-BNDGAMETRKPK2017-E001",
+    "name": "MX vs. ATV 2017 Official Track Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     ]
@@ -54789,6 +55749,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 3495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4389-CUSA07707_00-BAJAHDEU00000001-E001",
+    "name": "Baja: Edge of Control HD",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 5495,
         "strikethrough": null
       }
     ]
@@ -57837,6 +58812,21 @@
         "day": "2017-12-22",
         "upsell": null,
         "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP4492-CUSA03464_00-0000000000000000-E001",
+    "name": "SENRAN KAGURA ESTIVAL VERSUS",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     ]
@@ -62233,6 +63223,21 @@
     ]
   },
   {
+    "sku": "EP8935-CUSA04690_00-PF17GOLDBUNPS4EU-E001",
+    "name": "Professional Farmer 2017 - Gold Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 7295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP8935-CUSA04690_00-PF17GOLDBUNPS4EU-E002",
     "name": "Professional Farmer 2017 - Gold Edition",
     "platforms": [
@@ -62316,6 +63321,21 @@
     "history": [
       {
         "day": "2017-12-22",
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP8935-CUSA08029_00-TRANSPORTGPS4EU0-E001",
+    "name": "Transport Giant",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
         "upsell": null,
         "actual": 5495,
         "strikethrough": null
@@ -62626,6 +63646,21 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00002_00-KZ4RELEASE000041-E002",
+    "name": "KILLZONE™ SHADOW FALL",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00002_00-KZ4RELEASE000041-E005",
     "name": "KILLZONE™ SHADOW FALL",
     "platforms": [
@@ -62636,6 +63671,21 @@
         "day": "2017-12-22",
         "upsell": 1748,
         "actual": 6995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00002_00-KZSFSEASONPABNDL-E001",
+    "name": "KILLZONE™ SHADOW FALL and Season Pass Bundle",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 8895,
         "strikethrough": null
       }
     ]
@@ -62746,6 +63796,23 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00005_00-RESOGUN000000001-E001",
+    "name": "RESOGUN™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00005_00-RESOGUN000000001-E005",
     "name": "RESOGUN™",
     "platforms": [
@@ -62758,6 +63825,21 @@
         "day": "2017-12-22",
         "upsell": 628,
         "actual": 2095,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00006_00-KNACK00000000000-E001",
+    "name": "KNACK™",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     ]
@@ -62793,6 +63875,23 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00040_00-ULTIMATEBNDL00XB-E001",
+    "name": "Sound Shapes™ Ultimate Bundle",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00040_00-ULTIMATEBNDL00XB-E002",
     "name": "Sound Shapes™ Ultimate Bundle",
     "platforms": [
@@ -62805,6 +63904,21 @@
         "day": "2017-12-22",
         "upsell": 598,
         "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00046_00-DDU0000000000000-E002",
+    "name": "Doki-Doki Universe™",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 1195,
         "strikethrough": null
       }
     ]
@@ -62870,6 +63984,23 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00077_00-FLOWERPS4000FULL-E001",
+    "name": "Flower™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00077_00-FLOWERPS4000FULL-E004",
     "name": "Flower™",
     "platforms": [
@@ -62882,6 +64013,23 @@
         "day": "2017-12-22",
         "upsell": 388,
         "actual": 1295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00143_00-HOHOKUM000XBBNDL-E001",
+    "name": "Hohokum™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
         "strikethrough": null
       }
     ]
@@ -62904,6 +64052,21 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00153_00-ESCPCOLLECTION01-E001",
+    "name": "Escape Plan™ Collection",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00153_00-ESCPCOLLECTION01-E003",
     "name": "Escape Plan™ Collection",
     "platforms": [
@@ -62914,6 +64077,21 @@
         "day": "2017-12-22",
         "upsell": 958,
         "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00153_00-ESCPGAMEMASTEREU-E001",
+    "name": "Escape Plan™",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
         "strikethrough": null
       }
     ]
@@ -62934,6 +64112,21 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00176_00-DEADNATIONGAME01-E001",
+    "name": "Dead Nation™: Apocalypse Edition",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00176_00-DEADNATIONGAME01-E002",
     "name": "Dead Nation™: Apocalypse Edition",
     "platforms": [
@@ -62944,6 +64137,23 @@
         "day": "2017-12-22",
         "upsell": 718,
         "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00180_00-FLOWPLAYSTATION4-E001",
+    "name": "flOw™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 795,
         "strikethrough": null
       }
     ]
@@ -63024,6 +64234,23 @@
         "upsell": null,
         "actual": 2695,
         "strikethrough": 5495
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00465_00-COUNTERSPYXBBNDL-E001",
+    "name": "CounterSpy™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
       }
     ]
   },
@@ -63136,6 +64363,23 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00672_00-ETWPS40000000000-E004",
+    "name": "Entwined™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00672_00-ETWPS40000000000-E005",
     "name": "Entwined™",
     "platforms": [
@@ -63153,6 +64397,23 @@
     ]
   },
   {
+    "sku": "EP9000-CUSA00796_00-UNFINISHEDSWBUND-E001",
+    "name": "The Unfinished Swan™",
+    "platforms": [
+      "PS3",
+      "PS4",
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP9000-CUSA00796_00-UNFINISHEDSWBUND-E003",
     "name": "The Unfinished Swan™",
     "platforms": [
@@ -63165,6 +64426,21 @@
         "day": "2017-12-22",
         "upsell": 628,
         "actual": 2095,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00836_00-FATPRINCESSADVNT-E003",
+    "name": "Fat Princess™ Adventures",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2395,
         "strikethrough": null
       }
     ]
@@ -63196,6 +64472,21 @@
         "upsell": null,
         "actual": 1295,
         "strikethrough": 3195
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00867_00-KZ4COOP000000000-E001",
+    "name": "KILLZONE™ SHADOW FALL Intercept Online Co-op Mode (Standalone)",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
       }
     ]
   },
@@ -63256,6 +64547,21 @@
         "upsell": null,
         "actual": 795,
         "strikethrough": 2395
+      }
+    ]
+  },
+  {
+    "sku": "EP9000-CUSA00952_00-SUPSTARDUSTULTEU-E001",
+    "name": "Super Stardust™ Ultra",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "day": "2017-12-23",
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
       }
     ]
   },
