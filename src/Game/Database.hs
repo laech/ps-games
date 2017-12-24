@@ -1,7 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE LambdaCase #-}
 
 module Game.Database
-  ( readDbIfExists
+  ( readDb
   , writeDb
   ) where
 
@@ -13,19 +14,12 @@ import Data.Aeson.Encode.Pretty
 import Data.List
 import Data.Ord
 import Game
-import System.Directory
 
-readDbIfExists :: FilePath -> IO (Either String Games)
-readDbIfExists dbFile = do
-  exists <- doesPathExist dbFile
-  if exists
-    then read
-    else return $ Right Map.empty
-  where
-    read = do
-      file <- LazyChar8.readFile dbFile
-      let games = eitherDecode file :: Either String [Game]
-      return $ Map.fromList . fmap (\x -> (sku x, x)) <$> games
+readDb :: FilePath -> IO Games
+readDb dbFile =
+  (eitherDecode <$> LazyChar8.readFile dbFile) >>= \case
+    Right games -> return $ Map.fromList . fmap (\x -> (sku x, x)) $ games
+    Left err -> fail err
 
 writeDb :: FilePath -> Games -> IO ()
 writeDb dbFile db = LazyChar8.writeFile dbFile json
