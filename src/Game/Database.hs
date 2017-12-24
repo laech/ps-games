@@ -5,14 +5,15 @@ module Game.Database
   , writeDb
   ) where
 
-import           Data.Aeson
-import           Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy.Char8 as LazyChar8
-import           Data.List
-import qualified Data.Map                   as Map
-import           Data.Ord
-import           Game
-import           System.Directory
+import qualified Data.Map as Map
+
+import Data.Aeson
+import Data.Aeson.Encode.Pretty
+import Data.List
+import Data.Ord
+import Game
+import System.Directory
 
 readDbIfExists :: FilePath -> IO (Either String Games)
 readDbIfExists dbFile = do

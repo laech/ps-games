@@ -4,19 +4,20 @@ module Game.Store
   ( downloadGames
   ) where
 
-import           Control.Monad.Loops
-import           Data.Aeson
-import           Data.Aeson.Types
 import qualified Data.HashMap.Strict as HM
-import           Data.List
-import           Data.Map            (Map)
-import qualified Data.Map            as Map
-import           Data.Maybe
-import           Data.Text           (Text)
-import           Data.Time.Calendar
-import           Data.Time.Clock
-import           Game
-import           Network.HTTP.Client
+import qualified Data.Map as Map
+
+import Control.Monad.Loops
+import Data.Aeson
+import Data.Aeson.Types
+import Data.List
+import Data.Map (Map)
+import Data.Maybe
+import Data.Text (Text)
+import Data.Time.Calendar
+import Data.Time.Clock
+import Game
+import Network.HTTP.Client
 
 parseGames :: Day -> Value -> Parser [Game]
 parseGames date =
@@ -78,6 +79,6 @@ download manager start = do
   response <- httpLbs request manager
   let body = responseBody response
   case eitherDecode body >>= parseEither (parseGames today) of
-    Right []    -> return $ Just ([], -1)
+    Right [] -> return $ Just ([], -1)
     Right games -> return $ Just (games, start + length games)
-    Left err    -> fail err
+    Left err -> fail err

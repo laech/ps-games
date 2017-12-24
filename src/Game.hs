@@ -1,4 +1,4 @@
-{-# LANGUAGE DeriveGeneric   #-}
+{-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE TemplateHaskell #-}
 
 module Game
@@ -8,30 +8,31 @@ module Game
   , update
   ) where
 
-import           Data.Aeson.TH
-import           Data.Function
-import           Data.List
-import           Data.Map           (Map)
-import qualified Data.Map           as Map
-import           Data.Text          (Text)
-import           Data.Time.Calendar
-import           GHC.Generics
+import qualified Data.Map as Map
+
+import Data.Aeson.TH
+import Data.Function
+import Data.List
+import Data.Map (Map)
+import Data.Text (Text)
+import Data.Time.Calendar
+import GHC.Generics
 
 type Games = Map Text Game
 
 data Prices = Prices
-  { date          :: Day
-  , actual        :: Maybe Int
-  , upsell        :: Maybe Int
+  { date :: Day
+  , actual :: Maybe Int
+  , upsell :: Maybe Int
   , strikethrough :: Maybe Int
   } deriving (Show, Eq, Generic)
 
 data Game = Game
-  { sku         :: Text
-  , name        :: Text
+  { sku :: Text
+  , name :: Text
   , releaseDate :: Day
-  , platforms   :: [Text]
-  , history     :: [Prices]
+  , platforms :: [Text]
+  , history :: [Prices]
   } deriving (Show, Generic)
 
 $(deriveJSON defaultOptions ''Prices)
