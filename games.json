@@ -4410,6 +4410,12 @@
     ],
     "history": [
       {
+        "date": "2017-12-25",
+        "upsell": null,
+        "actual": 9595,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 5495,
@@ -4425,6 +4431,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2017-12-25",
+        "upsell": null,
+        "actual": 10595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,

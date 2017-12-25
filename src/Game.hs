@@ -13,6 +13,7 @@ import qualified Data.Map as Map
 import Data.Aeson.TH
 import Data.Function
 import Data.List
+import Data.Ord
 import Data.Map (Map)
 import Data.Text (Text)
 import Data.Time.Calendar
@@ -50,7 +51,7 @@ update =
          games)
   where
     updateHistory :: (Game -> [Prices]) -> Game -> Game -> [Prices]
-    updateHistory f a b = map head . groupByPrice . sortByDay $ f a ++ f b
-    sortByDay = sortBy (on compare date)
+    updateHistory f a b = map (minimumBy $ comparing date) . groupByPrice . sortByDay $ f a ++ f b
+    sortByDay = sortBy (comparing $ Down . date)
     groupByPrice = groupBy (on (==) prices)
     prices x = [actual x, upsell x, strikethrough x]
