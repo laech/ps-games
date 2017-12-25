@@ -4,4 +4,6 @@ set -e errexit
 
 cd "$(dirname $0)"
 
-stack run -- -- games.json
+stack build
+
+stack exec ps-game-price-history games.json
