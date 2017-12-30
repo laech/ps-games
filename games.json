@@ -1433,6 +1433,23 @@
     ]
   },
   {
+    "sku": "EP2363-CUSA09664_00-REVENANTSPS4EUCB-E002",
+    "name": "Revenant Saga",
+    "releaseDate": "2017-12-13",
+    "platforms": [
+      "PS Vita",
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2017-12-30",
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "sku": "EP4029-CUSA05979_00-NINEPARCHMENTS00-E001",
     "name": "Nine Parchments",
     "releaseDate": "2017-12-13",
