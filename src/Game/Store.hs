@@ -27,23 +27,23 @@ parseGames date =
 parseGame :: Day -> Value -> Parser Game
 parseGame date =
   withObject "Game" $ \v -> do
+    id <- v .: "id"
     attrs <- v .: "attributes"
-    sku <- attrs .: "default-sku-id"
     name <- attrs .: "name"
     releaseDate <- utctDay <$> (attrs .: "release-date")
     platforms <- sort <$> attrs .: "platforms"
-    prices <- parsePrices date sku attrs
+    prices <- attrs .: "default-sku-id" >>= parsePrices date attrs
     return
       Game
-      { sku = sku
+      { Game.id = id
       , name = name
       , releaseDate = releaseDate
       , platforms = platforms
       , history = [prices]
       }
 
-parsePrices :: Day -> Text -> Object -> Parser Prices
-parsePrices date sku attrs = do
+parsePrices :: Day -> Object -> Text -> Parser Prices
+parsePrices date attrs sku = do
   skus <- attrs .: "skus" :: Parser [Object]
   prices <-
     maybe (fail "No matching sku.") pure (find (matches sku) skus) >>=

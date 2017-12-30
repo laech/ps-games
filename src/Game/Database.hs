@@ -18,7 +18,7 @@ import Game
 readDb :: FilePath -> IO Games
 readDb dbFile =
   (eitherDecode <$> LazyChar8.readFile dbFile) >>= \case
-    Right games -> return $ Map.fromList . fmap (\x -> (sku x, x)) $ games
+    Right games -> return $ Map.fromListWith merge . fmap (\x -> (Game.id x, x)) $ games
     Left err -> fail err
 
 writeDb :: FilePath -> Games -> IO ()
@@ -31,7 +31,7 @@ writeDb dbFile db = LazyChar8.writeFile dbFile json
       { confIndent = Spaces 2
       , confCompare =
           keyOrder
-            [ "sku"
+            [ "id"
             , "name"
             , "releaseDate"
             , "platforms"
