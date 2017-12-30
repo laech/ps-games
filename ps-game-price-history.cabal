@@ -18,6 +18,7 @@ executable ps-game-price-history
                      , directory
                      , http-client
                      , http-client-tls
+                     , hslogger
                      , monad-loops
                      , unordered-containers
                      , text

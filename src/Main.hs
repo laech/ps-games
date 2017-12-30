@@ -10,9 +10,11 @@ import Network.HTTP.Client.TLS
 import System.Environment
 import System.Exit
 import System.IO.Error
+import System.Log.Logger
 
 main :: IO ()
 main = do
+  updateGlobalLogger rootLoggerName $ setLevel INFO
   args <- getArgs
   case args of
     [dbFile] -> process dbFile
@@ -21,9 +23,9 @@ main = do
 process :: FilePath -> IO ()
 process dbFile = do
   db <- catchJust doesNotExit (readDb dbFile) (const emptyDb)
-  putStrLn "Downloading game data..."
+  infoM "Game" "Downloading game data..."
   games <- downloadGames =<< newTlsManager
-  putStrLn $ "Downloaded data for " ++ show (length games) ++ " games."
+  infoM "Game" ("Downloaded data for " ++ show (length games) ++ " games.")
   writeDb dbFile (update db games)
   where
     doesNotExit e =

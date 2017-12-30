@@ -7,6 +7,7 @@ module Game.Store
 import qualified Data.HashMap.Strict as HM
 import qualified Data.Map as Map
 
+import Control.Monad
 import Control.Monad.Loops
 import Data.Aeson
 import Data.Aeson.Types
@@ -18,6 +19,7 @@ import Data.Time.Calendar
 import Data.Time.Clock
 import Game
 import Network.HTTP.Client
+import System.Log.Logger
 
 parseGames :: Day -> Value -> Parser [Game]
 parseGames date =
@@ -74,6 +76,7 @@ downloadGames manager = concat <$> unfoldrM (download manager) 0
 download :: Manager -> Int -> IO (Maybe ([Game], Int))
 download _ (-1) = return Nothing
 download manager start = do
+  infoM "Game" ("Downloading game data from offset " ++ show start ++ "...")
   today <- utctDay <$> getCurrentTime
   request <- parseUrlThrow $ gamesUrlAtStart start
   response <- httpLbs request manager
