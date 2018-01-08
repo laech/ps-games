@@ -128,6 +128,22 @@
     ]
   },
   {
+    "id": "EP4389-CUSA06877_00-MXVSATVNPREORDER",
+    "name": "MX vs ATV All Out - Digital Pre-order",
+    "releaseDate": "2018-03-23",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "id": "UP9000-CUSA09450_00-MLB1800PREORDPSN",
     "name": "MLB® The Show™ 18",
     "releaseDate": "2018-03-23",
@@ -635,6 +651,55 @@
         "date": "2017-12-23",
         "upsell": 2396,
         "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP0760-CUSA10335_00-0000000000000002",
+    "name": "Little Red Lie",
+    "releaseDate": "2018-01-09",
+    "platforms": [
+      "PS Vita",
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1825,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP1121-PCSB01131_00-THECOUNTLUCANORM",
+    "name": "The Count Lucanor",
+    "releaseDate": "2018-01-09",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3095,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP1226-CUSA11066_00-PLOXNEON00000000",
+    "name": "Plox Neon",
+    "releaseDate": "2018-01-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1295,
         "strikethrough": null
       }
     ]
@@ -1151,7 +1216,7 @@
   },
   {
     "id": "EP1004-CUSA00411_00-PREMIUMPACKOG001",
-    "name": "GTAV & Criminal Enterprise Starter Pack Bundle",
+    "name": "Grand Theft Auto V and Criminal Enterprise Starter Pack Bundle",
     "releaseDate": "2017-12-19",
     "platforms": [
       "PS4"
@@ -2789,6 +2854,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 3195,
@@ -2998,6 +3069,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 16995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 12795,
@@ -3013,6 +3090,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -3361,6 +3444,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -4324,6 +4413,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 16495,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 8995,
@@ -4339,6 +4434,12 @@
       "PS3"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 15495,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -6276,6 +6377,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 6995,
@@ -6388,6 +6495,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3395,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -7244,6 +7357,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 16995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 11995,
@@ -7259,6 +7378,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 15995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -7469,6 +7594,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 2745,
@@ -7484,6 +7615,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 2745,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -7956,6 +8093,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 11295,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -9632,6 +9775,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 5495,
@@ -10112,6 +10261,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 4395,
@@ -10320,6 +10475,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -10865,6 +11026,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -11463,6 +11630,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 2095,
@@ -11719,6 +11892,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 11295,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -13878,6 +14057,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 6295,
@@ -13893,6 +14078,12 @@
       "PS3"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -13989,6 +14180,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -15437,6 +15634,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 1595,
@@ -16443,6 +16646,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 5495,
@@ -16974,6 +17183,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 3595,
@@ -17006,6 +17221,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 5495,
@@ -17021,6 +17242,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -17103,6 +17330,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 5495,
@@ -17118,6 +17351,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -18894,6 +19133,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 4295,
@@ -18989,6 +19234,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 17995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -23224,6 +23475,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 3195,
@@ -23867,6 +24124,12 @@
       "PS Vita"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -26171,6 +26434,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 6295,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": 2865,
         "actual": 3495,
@@ -26236,6 +26505,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -42245,6 +42520,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 2595,
@@ -44857,6 +45138,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 4995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 1995,
@@ -44872,6 +45159,12 @@
       "PS Vita"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -45417,6 +45710,12 @@
       "PS3"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 4995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -49452,6 +49751,12 @@
       "PS3"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 3573,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -63496,6 +63801,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 1195,
@@ -63798,6 +64109,12 @@
       "PSP®"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -70182,6 +70499,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 795,
@@ -72177,6 +72500,12 @@
       "PSP®"
     ],
     "history": [
+      {
+        "date": "2018-01-08",
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
