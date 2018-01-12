@@ -336,6 +336,22 @@
     ]
   },
   {
+    "id": "EP0006-CUSA08977_00-ZOINKGAMESFEPREO",
+    "name": "Fe",
+    "releaseDate": "2018-02-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
     "id": "EP0082-CUSA09537_00-SECRETOFMANAPREO",
     "name": "Secret of Mana : DIGITAL PRE-ORDER",
     "releaseDate": "2018-02-15",
@@ -651,6 +667,87 @@
         "date": "2017-12-23",
         "upsell": 2396,
         "actual": 3195,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP8908-CUSA10823_00-HAMPRDC000000001",
+    "name": "ACA NEOGEO THE KING OF FIGHTERS '98",
+    "releaseDate": "2018-01-11",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP0433-CUSA06174_00-READONLYCROSSBUY",
+    "name": "2064: Read Only Memories",
+    "releaseDate": "2018-01-10",
+    "platforms": [
+      "PS Vita",
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP1661-CUSA08596_00-SYPS4ENERGYINVAS",
+    "name": "Energy Invasion",
+    "releaseDate": "2018-01-10",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP1661-PCSB01203_00-G000000000001116",
+    "name": "Energy Invasion",
+    "releaseDate": "2018-01-10",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 585,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP0082-CUSA09481_00-STAROCEAN4201711",
+    "name": "STAR OCEAN™ - THE LAST HOPE -™ 4K & Full HD Remaster",
+    "releaseDate": "2018-01-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3395,
         "strikethrough": null
       }
     ]
@@ -1499,6 +1596,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": 3196,
         "actual": 3995,
@@ -1514,6 +1617,12 @@
       "PS Vita"
     ],
     "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": 3196,
@@ -1643,6 +1752,12 @@
       "PS3"
     ],
     "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -1888,6 +2003,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -26064,6 +26185,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 1795,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 3395,
@@ -33821,6 +33948,12 @@
       "PS4"
     ],
     "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 1795,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -42743,6 +42876,12 @@
       "PS Vita"
     ],
     "history": [
+      {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 725,
+        "strikethrough": null
+      },
       {
         "date": "2017-12-23",
         "upsell": null,
@@ -51710,6 +51849,12 @@
     ],
     "history": [
       {
+        "date": "2018-01-12",
+        "upsell": null,
+        "actual": 995,
+        "strikethrough": null
+      },
+      {
         "date": "2017-12-23",
         "upsell": null,
         "actual": 1295,
@@ -53074,6 +53219,22 @@
     "history": [
       {
         "date": "2017-12-23",
+        "upsell": null,
+        "actual": 3573,
+        "strikethrough": null
+      }
+    ]
+  },
+  {
+    "id": "EP1018-NPEB01169_00-LEGOLORDOFTHERNG",
+    "name": "LEGO® The Lord of the Rings™",
+    "releaseDate": "2012-11-27",
+    "platforms": [
+      "PS3"
+    ],
+    "history": [
+      {
+        "date": "2018-01-12",
         "upsell": null,
         "actual": 3573,
         "strikethrough": null
