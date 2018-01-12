@@ -42,14 +42,16 @@ $(deriveJSON defaultOptions ''Prices)
 $(deriveJSON defaultOptions ''Game)
 
 update :: Games -> [Game] -> Games
-update = foldl (\games game -> Map.insertWith merge (Game.id game) game games)
+update = foldl update
+  where
+    update games game = Map.insertWith merge (Game.id game) game games
 
 merge :: Game -> Game -> Game
-merge new old = new {history = updateHistory history old new}
+merge new old = new {history = mergeHistory $ concatMap history [old, new]}
   where
-    updateHistory :: (Game -> [Prices]) -> Game -> Game -> [Prices]
-    updateHistory f a b = mapMinDate . groupByPrice . sortByDay $ f a ++ f b
-    mapMinDate = map (minimumBy $ comparing date)
+    mergeHistory :: [Prices] -> [Prices]
+    mergeHistory = getMinDate . groupByPrice . sortByDay
+    getMinDate = map (minimumBy $ comparing date)
     sortByDay = sortBy (comparing $ Down . date)
     groupByPrice = groupBy (on (==) prices)
-    prices x = [actual x, upsell x, strikethrough x]
+    prices x = [actual, upsell, strikethrough] <*> [x]
