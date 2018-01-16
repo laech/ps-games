@@ -34,18 +34,18 @@ parseGame date =
     name <- attrs .: "name"
     releaseDate <- utctDay <$> (attrs .: "release-date")
     platforms <- sort <$> attrs .: "platforms"
-    prices <- attrs .: "default-sku-id" >>= parsePrices date attrs
+    prices <- attrs .: "default-sku-id" >>= parsePrices attrs
     return
       Game
       { Game.id = id
       , name = name
       , releaseDate = releaseDate
       , platforms = platforms
-      , history = [prices]
+      , history = Map.singleton date prices
       }
 
-parsePrices :: Day -> Object -> Text -> Parser Prices
-parsePrices date attrs sku = do
+parsePrices :: Object -> Text -> Parser Prices
+parsePrices attrs sku = do
   skus <- attrs .: "skus" :: Parser [Object]
   prices <-
     maybe (fail "No matching sku.") pure (find (matches sku) skus) >>=
@@ -55,12 +55,7 @@ parsePrices date attrs sku = do
   upsell <- parsePrice "upsell-price" prices
   strikethrough <- parsePrice "strikethrough-price" prices
   return
-    Prices
-    { date = date
-    , actual = actual
-    , upsell = upsell
-    , strikethrough = strikethrough
-    }
+    Prices {actual = actual, upsell = upsell, strikethrough = strikethrough}
   where
     matches id o = HM.lookup "id" o == Just (String id)
     parsePrice tag prices = prices .:? tag >>= maybe (pure Nothing) (.: "value")

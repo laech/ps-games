@@ -23,8 +23,7 @@ import GHC.Generics
 type Games = Map Text Game
 
 data Prices = Prices
-  { date :: Day
-  , actual :: Maybe Int
+  { actual :: Maybe Int
   , upsell :: Maybe Int
   , strikethrough :: Maybe Int
   } deriving (Show, Eq, Generic)
@@ -34,7 +33,7 @@ data Game = Game
   , name :: Text
   , releaseDate :: Day
   , platforms :: [Text]
-  , history :: [Prices]
+  , history :: Map Day Prices
   } deriving (Show, Generic)
 
 $(deriveJSON defaultOptions ''Prices)
@@ -47,11 +46,9 @@ update = foldl update
     update games game = Map.insertWith merge (Game.id game) game games
 
 merge :: Game -> Game -> Game
-merge new old = new {history = mergeHistory $ concatMap history [old, new]}
+merge new old = new {history = merge' . Map.unions . map history $ [old, new]}
   where
-    mergeHistory :: [Prices] -> [Prices]
-    mergeHistory = getMinDate . groupByPrice . sortByDay
-    getMinDate = map (minimumBy $ comparing date)
-    sortByDay = sortBy (comparing $ Down . date)
-    groupByPrice = groupBy (on (==) prices)
-    prices x = [actual, upsell, strikethrough] <*> [x]
+    merge' :: Map Day Prices -> Map Day Prices
+    merge' = Map.fromList . getMinDate . groupByPrice . Map.toDescList
+    getMinDate = map (minimumBy $ comparing fst)
+    groupByPrice = groupBy (on (==) snd)
