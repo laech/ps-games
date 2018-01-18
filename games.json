@@ -255,6 +255,21 @@
     }
   },
   {
+    "id": "EP1018-CUSA10354_00-SNSDPREORDER0000",
+    "name": "Scribblenauts: Showdown",
+    "releaseDate": "2018-03-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP9000-CUSA07225_00-BRAVOTMPREORDPSN",
     "name": "Bravo Team",
     "releaseDate": "2018-03-07",
@@ -310,6 +325,36 @@
       "2017-12-23": {
         "upsell": 3676,
         "actual": 4595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP0101-CUSA07201_00-PREORDERBUNDLE01",
+    "name": "Metal Gear Survive",
+    "releaseDate": "2018-02-22",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP2907-CUSA08702_00-APEXCONSTRPREORD",
+    "name": "Apex Construct",
+    "releaseDate": "2018-02-20",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 3916,
+        "actual": 4895,
         "strikethrough": null
       }
     }
@@ -615,6 +660,81 @@
     }
   },
   {
+    "id": "EP4384-CUSA02774_00-SUPERPACK5IN1PS4",
+    "name": "Super Pack 5 in 1 by 4 HIT",
+    "releaseDate": "2018-01-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 2895,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4384-CUSA02777_00-ROYALBUNDLEPS400",
+    "name": "ROYAL BUNDLE",
+    "releaseDate": "2018-01-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4384-CUSA06139_00-SDBUNDLEPS400000",
+    "name": "SEA DEFENSE BUNDLE",
+    "releaseDate": "2018-01-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP8908-CUSA03936_00-HAMPRDC000000001",
+    "name": "Arcade Archives FRONT LINE",
+    "releaseDate": "2018-01-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP8925-CUSA09037_00-AOPS4DIGISIEE000",
+    "name": "Albert and Otto",
+    "releaseDate": "2018-01-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 1556,
+        "actual": 1945,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP1875-CUSA07734_00-INNERSPACEBUNDLE",
     "name": "InnerSpace",
     "releaseDate": "2018-01-16",
@@ -625,6 +745,126 @@
       "2017-12-23": {
         "upsell": 2396,
         "actual": 3195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP1875-CUSA07734_00-INNERSPACEFLIGHT",
+    "name": "InnerSpace",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 2875,
+        "actual": 3195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP2187-CUSA10900_00-KINGDOMNEWLANDS0",
+    "name": "Kingdom: New Lands",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4249-CUSA09105_00-AOT0000000000000",
+    "name": "AO Tennis",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4384-CUSA07812_00-PORTALOFEVIL000E",
+    "name": "Portal of Evil: Stolen Runes",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4395-CUSA09921_00-BEHOLDER00000EUR",
+    "name": "Beholder Complete Edition",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 2155,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4541-CUSA08388_00-DEFUNCTEU0000000",
+    "name": "Defunct",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 1676,
+        "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4541-CUSA08388_00-DEFUNCTEUDELUXE0",
+    "name": "Defunct - Deluxe Edition",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": 2236,
+        "actual": 3195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4829-CUSA11258_00-KERBAL0EE0000000",
+    "name": "Kerbal Space Program Enhanced Edition",
+    "releaseDate": "2018-01-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 6395,
         "strikethrough": null
       }
     }
@@ -1340,6 +1580,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP1968-CUSA09480_00-SAVETHELIGHTEU00",
+    "name": "Steven Universe: Save the Light",
+    "releaseDate": "2017-12-19",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 3995,
         "strikethrough": null
       }
     }
@@ -12308,6 +12563,11 @@
       "PS4"
     ],
     "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 4295,
@@ -13769,6 +14029,11 @@
       "PS4"
     ],
     "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 9595,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 12995,
@@ -13784,6 +14049,11 @@
       "PS4"
     ],
     "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 8895,
@@ -13799,6 +14069,11 @@
       "PS4"
     ],
     "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 7995,
@@ -26593,6 +26868,36 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 5995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP0006-CUSA01934_00-PVZGW2BASEGAME00",
+    "name": "Plants vs. Zombies™ Garden Warfare 2",
+    "releaseDate": "2016-02-23",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP0006-CUSA01934_00-PVZGW2DELUXEED00",
+    "name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+    "releaseDate": "2016-02-23",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-01-18": {
+        "upsell": null,
+        "actual": 5495,
         "strikethrough": null
       }
     }
