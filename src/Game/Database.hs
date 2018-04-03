@@ -25,7 +25,7 @@ writeDb :: FilePath -> Games -> IO ()
 writeDb dbFile db = LazyChar8.writeFile dbFile json
   where
     json = encodePretty' conf games
-    games = sortBy (comparing $ Down . releaseDate) $ Map.elems db
+    games = sortBy (comparing Game.id) $ Map.elems db
     conf =
       defConfig
       { confIndent = Spaces 2
