@@ -14,7 +14,7 @@ import Data.Aeson.Types
 import Data.List
 import Data.Map (Map)
 import Data.Maybe
-import Data.Text (Text)
+import Data.Text (Text, strip)
 import Data.Time.Calendar
 import Data.Time.Clock
 import Game
@@ -29,11 +29,11 @@ parseGames date =
 parseGame :: Day -> Value -> Parser Game
 parseGame date =
   withObject "Game" $ \v -> do
-    id <- v .: "id"
+    id <- strip <$> v .: "id"
     attrs <- v .: "attributes"
-    name <- attrs .: "name"
+    name <- strip <$> attrs .: "name"
     releaseDate <- utctDay <$> (attrs .: "release-date")
-    platforms <- sort <$> attrs .: "platforms"
+    platforms <- sort . map strip <$> attrs .: "platforms"
     prices <- attrs .: "default-sku-id" >>= parsePrices attrs
     return
       Game
