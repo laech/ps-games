@@ -547,6 +547,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 5995,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 5995,
@@ -4633,6 +4638,11 @@
         "actual": 20995,
         "strikethrough": null
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 20995,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 14295,
@@ -4652,6 +4662,11 @@
         "upsell": null,
         "actual": 11995,
         "strikethrough": 16995
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 16995,
+        "strikethrough": null
       },
       "2018-01-08": {
         "upsell": null,
@@ -4677,6 +4692,11 @@
         "upsell": null,
         "actual": 8995,
         "strikethrough": 10995
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
       },
       "2018-01-08": {
         "upsell": null,
@@ -6629,6 +6649,11 @@
         "actual": 6295,
         "strikethrough": 12795
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      },
       "2018-01-15": {
         "upsell": null,
         "actual": 12795,
@@ -6678,6 +6703,11 @@
         "upsell": null,
         "actual": 8995,
         "strikethrough": 13495
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
       },
       "2018-01-15": {
         "upsell": null,
@@ -6753,6 +6783,11 @@
         "upsell": null,
         "actual": 5495,
         "strikethrough": 11295
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 11295,
+        "strikethrough": null
       },
       "2018-01-15": {
         "upsell": null,
@@ -8103,6 +8138,11 @@
         "upsell": null,
         "actual": 3573,
         "strikethrough": 9995
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 9995,
+        "strikethrough": null
       },
       "2018-01-15": {
         "upsell": null,
@@ -9618,6 +9658,11 @@
         "upsell": null,
         "actual": 6295,
         "strikethrough": 11995
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
       },
       "2017-12-23": {
         "upsell": null,
@@ -16659,6 +16704,11 @@
         "actual": 2745,
         "strikethrough": null
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 2745,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 895,
@@ -17305,6 +17355,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
@@ -17497,6 +17552,22 @@
         "upsell": null,
         "actual": 975,
         "strikethrough": 2395
+      }
+    }
+  },
+  {
+    "id": "EP0576-CUSA11041_00-KOF97GM0CROSSBUY",
+    "name": "THE KING OF FIGHTERS ’97 GLOBAL MATCH",
+    "releaseDate": "2018-04-05",
+    "platforms": [
+      "PS Vita",
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
       }
     }
   },
@@ -19056,6 +19127,21 @@
         "upsell": null,
         "actual": 1945,
         "strikethrough": 3195
+      }
+    }
+  },
+  {
+    "id": "EP0700-CUSA07300_00-IMPACTWINTERBDL0",
+    "name": "Impact Winter",
+    "releaseDate": "2018-04-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
       }
     }
   },
@@ -21714,6 +21800,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP0809-PCSB01190_00-RAINBITESREVERIE",
+    "name": "Reverie",
+    "releaseDate": "2018-04-05",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 2395,
         "strikethrough": null
       }
     }
@@ -27283,6 +27384,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 11295,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 11295,
@@ -32990,6 +33096,11 @@
         "upsell": null,
         "actual": 2745,
         "strikethrough": null
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1945,
+        "strikethrough": null
       }
     }
   },
@@ -33004,6 +33115,11 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 2745,
+        "strikethrough": null
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1945,
         "strikethrough": null
       }
     }
@@ -33656,6 +33772,21 @@
     }
   },
   {
+    "id": "EP1661-CUSA10857_00-SYPS4METROPOLISL",
+    "name": "Metropolis: Lux Obscura",
+    "releaseDate": "2018-04-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP1661-PCSB00944_00-G000000000000866",
     "name": "Energy Cycle",
     "releaseDate": "2017-08-04",
@@ -33816,6 +33947,21 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 975,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP1661-PCSB01214_00-G000000000001127",
+    "name": "Metropolis: Lux Obscura",
+    "releaseDate": "2018-04-04",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1595,
         "strikethrough": null
       }
     }
@@ -34323,6 +34469,21 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP1703-CUSA10834_00-CRAZYSOFT0RAINCN",
+    "name": "Raining Coins",
+    "releaseDate": "2018-04-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 975,
         "strikethrough": null
       }
     }
@@ -39164,6 +39325,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 1795,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1795,
@@ -40976,6 +41142,51 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 3595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP2491-CUSA05529_00-0000000000000300",
+    "name": "Raiders of the Broken Planet - Wardog Fury Bundle",
+    "releaseDate": "2018-04-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP2491-CUSA05529_00-0000000000000400",
+    "name": "Raiders of the Broken Planet - Hades Betrayal Bundle",
+    "releaseDate": "2018-04-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP2491-CUSA05529_00-0000000000000500",
+    "name": "Raiders of the Broken Planet - Alien Myths Bundle",
+    "releaseDate": "2018-04-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1595,
         "strikethrough": null
       }
     }
@@ -43294,6 +43505,21 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP3643-CUSA10431_00-SWORDSOFDITTOPRE",
+    "name": "The Swords of Ditto Pre-Order Bundle",
+    "releaseDate": "2018-04-24",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": 2796,
+        "actual": 3495,
         "strikethrough": null
       }
     }
@@ -48354,6 +48580,11 @@
     "history": {
       "2018-04-03": {
         "upsell": 0,
+        "actual": 3495,
+        "strikethrough": null
+      },
+      "2018-04-05": {
+        "upsell": null,
         "actual": 3495,
         "strikethrough": null
       },
@@ -53966,6 +54197,11 @@
         "actual": 1125,
         "strikethrough": null
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1125,
@@ -55199,6 +55435,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 8995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4133-CUSA08573_00-SPACEHULKPREORD0",
+    "name": "Space Hulk: Deathwing - Enhanced Edition",
+    "releaseDate": "2018-05-22",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": 6295,
+        "actual": 6995,
         "strikethrough": null
       }
     }
@@ -63967,6 +64218,11 @@
         "actual": 4995,
         "strikethrough": null
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 4995,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 4995,
@@ -67628,6 +67884,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 1445,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1445,
@@ -68915,6 +69176,11 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 6395,
+        "strikethrough": null
+      },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 3595,
         "strikethrough": null
       }
     }
@@ -72960,6 +73226,11 @@
         "actual": 6295,
         "strikethrough": null
       },
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 6295,
+        "strikethrough": null
+      },
       "2018-01-15": {
         "upsell": null,
         "actual": 6295,
@@ -73356,6 +73627,11 @@
     "history": {
       "2018-04-03": {
         "upsell": 0,
+        "actual": 6295,
+        "strikethrough": null
+      },
+      "2018-04-05": {
+        "upsell": null,
         "actual": 6295,
         "strikethrough": null
       },
@@ -74544,6 +74820,36 @@
     }
   },
   {
+    "id": "EP9000-CUSA11993_00-SPIDDLXPREORDPSN",
+    "name": "Marvel’s Spider-Man Digital Deluxe Edition",
+    "releaseDate": "2018-09-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP9000-CUSA11993_00-SPIDERMPREORDPSN",
+    "name": "Marvel’s Spider-Man",
+    "releaseDate": "2018-09-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-05": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP9000-NPEA00004_00-GLEMMINGSG000001",
     "name": "Lemmings™",
     "releaseDate": "2007-03-23",
@@ -74913,6 +75219,11 @@
       "PS3"
     ],
     "history": {
+      "2018-04-05": {
+        "upsell": 0,
+        "actual": 795,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 795,
