@@ -8,6 +8,7 @@ dependencies:
 - bytestring
 - containers
 - directory
+- filepath
 - http-client
 - http-client-tls
 - hslogger
