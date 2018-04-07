@@ -4711,6 +4711,21 @@
     }
   },
   {
+    "id": "EP0002-CUSA12085_00-SPYROTRILOGYPREO",
+    "name": "Spyro™ Reignited Trilogy",
+    "releaseDate": "2018-09-21",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-07": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP0002-NPEB00101_00-CALLOFDUTYCLSCEN",
     "name": "Call of Duty® Classic",
     "releaseDate": "2009-12-10",
@@ -34267,6 +34282,21 @@
     }
   },
   {
+    "id": "EP1667-CUSA11092_00-ENICOLLECTIOSIEE",
+    "name": "Enigmatis Collection",
+    "releaseDate": "2018-04-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-07": {
+        "upsell": null,
+        "actual": 5795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP1670-CUSA02621_00-0000000000000001",
     "name": "Amazing Discoveries In Outer Space",
     "releaseDate": "2016-02-03",
@@ -41267,6 +41297,21 @@
     }
   },
   {
+    "id": "EP2555-CUSA06758_00-0000000100000000",
+    "name": "Flight of Light",
+    "releaseDate": "2018-04-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-07": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "id": "EP2575-CUSA08065_00-BTD5000000000001",
     "name": "Bloons TD 5",
     "releaseDate": "2017-05-09",
@@ -41425,6 +41470,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-07": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": 2236,
         "actual": 3195,
@@ -54459,6 +54509,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 645,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "id": "EP4126-CUSA03859_00-KICKANDFENNIC000",
+    "name": "Kick & Fennick",
+    "releaseDate": "2018-04-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-07": {
+        "upsell": null,
+        "actual": 2395,
         "strikethrough": null
       }
     }
