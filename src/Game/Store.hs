@@ -8,7 +8,6 @@ import qualified Data.HashMap.Strict as HM
 import qualified Data.Map as Map
 
 import Control.Monad
-import Control.Monad.Loops
 import Data.Aeson
 import Data.Aeson.Types
 import Data.List
@@ -18,9 +17,9 @@ import Data.Text (Text, strip)
 import Data.Time.Calendar
 import Data.Time.Clock
 import Game
+import Network.HTTP.Client
 import Pipes
 import Pipes.Core
-import Network.HTTP.Client
 import System.Log.Logger
 
 parseGames :: Day -> Value -> Parser [Game]
@@ -74,8 +73,11 @@ games' :: Int -> Manager -> Producer Game IO ()
 games' offset manager = do
   today <- utctDay <$> lift getCurrentTime
   content <- lift $ readContent manager offset
-  items <- either fail pure (eitherDecode content >>= parseEither (parseGames today))
-  unless (null items) $ each items //> yield >> games' (offset + length items) manager
+  items <- either fail pure (parse content today)
+  unless (null items) $ each items //> yield >> next items
+  where
+    parse content date = eitherDecode content >>= parseEither (parseGames date)
+    next items = games' (offset + length items) manager
 
 readContent manager offset = do
   infoM "Game" ("Downloading game data from offset " ++ show offset ++ "...")
