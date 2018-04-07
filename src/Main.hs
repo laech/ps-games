@@ -1,12 +1,16 @@
 module Main where
 
 import qualified Data.Map as Map
+import qualified Pipes.Prelude as P
 
 import Control.Exception
+import Data.Foldable
 import Game
 import Game.Database
 import Game.Store
 import Network.HTTP.Client.TLS
+import Pipes
+import Pipes.Core
 import System.Environment
 import System.Exit
 import System.IO.Error
@@ -24,7 +28,8 @@ process :: FilePath -> IO ()
 process dbFile = do
   db <- catchJust doesNotExit (readDb dbFile) (const emptyDb)
   infoM "Game" "Downloading game data..."
-  games <- downloadGames =<< newTlsManager
+  manager <- newTlsManager
+  games <- P.toListM $ games manager
   infoM "Game" ("Downloaded data for " ++ show (length games) ++ " games.")
   writeDb dbFile (update db games)
   where

@@ -13,6 +13,7 @@ dependencies:
 - http-client-tls
 - hslogger
 - monad-loops
+- pipes
 - unordered-containers
 - text
 - time
