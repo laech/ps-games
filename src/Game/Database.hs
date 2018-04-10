@@ -44,7 +44,7 @@ writeDb dbFile db = do
           compareKeys
             (Map.fromList $
              zip
-               [ "id"
+               [ "sku"
                , "name"
                , "releaseDate"
                , "platforms"
