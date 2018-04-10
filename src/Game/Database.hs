@@ -1,5 +1,4 @@
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE LambdaCase #-}
 
 module Game.Database
   ( readDb
@@ -23,50 +22,53 @@ import System.FilePath
 import System.IO
 
 readDb :: FilePath -> IO Games
-readDb db = do
-  content <- L.readFile db
+readDb path = do
+  content <- L.readFile path
   either fail (pure . process) (eitherDecode content)
   where
     process = Map.fromListWith merge . fmap (sku &&& id)
 
 writeDb :: FilePath -> Games -> IO ()
-writeDb dbFile db = do
-  let dir = takeDirectory dbFile
-  temp <- openTempFile dir dbFile
+writeDb path db = do
+  let dir = takeDirectory path
+  temp <- openTempFile dir path
   write temp `finally` clean temp
   where
-    json = encodePretty' conf games
+    json = encodePretty' jsonConf games
     games = sortBy (comparing sku) $ Map.elems db
-    conf =
-      defConfig
-      { confIndent = Spaces 2
-      , confCompare =
-          compareKeys
-            (Map.fromList $
-             zip
-               [ "sku"
-               , "name"
-               , "releaseDate"
-               , "platforms"
-               , "history"
-               , "date"
-               , "upsell"
-               , "actual"
-               , "strikethrough"
-               ]
-               [0 ..])
-      }
-    compareKeys orders x y =
-      case (Map.lookup x orders, Map.lookup y orders) of
-        (Nothing, Nothing) -> compare y x
-        (Just x', Just y') -> compare x' y'
-        (Just _, _) -> LT
-        (_, Just _) -> GT
     write (path, handle) = do
       L.hPut handle json
       hClose handle
-      renameFile path dbFile
+      renameFile path path
     clean (path, handle) = do
       hClose handle
       exists <- doesFileExist path
       when exists $ removeFile path
+
+jsonConf =
+  defConfig
+  { confIndent = Spaces 2
+  , confCompare =
+      jsonConfCompare
+        (Map.fromList $
+         zip
+           [ "sku"
+           , "name"
+           , "releaseDate"
+           , "platforms"
+           , "history"
+           , "date"
+           , "upsell"
+           , "actual"
+           , "strikethrough"
+           ]
+           [0 ..])
+  }
+
+-- sort everything else by string (mainly for the dates)
+jsonConfCompare orders x y =
+  case (Map.lookup x orders, Map.lookup y orders) of
+    (Nothing, Nothing) -> compare y x
+    (Just x', Just y') -> compare x' y'
+    (Just _, _) -> LT
+    (_, Just _) -> GT
