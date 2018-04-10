@@ -27,7 +27,7 @@ readDb db = do
   content <- L.readFile db
   either fail (pure . process) (eitherDecode content)
   where
-    process = Map.fromListWith merge . fmap (Game.id &&& Prelude.id)
+    process = Map.fromListWith merge . fmap (sku &&& id)
 
 writeDb :: FilePath -> Games -> IO ()
 writeDb dbFile db = do
@@ -36,7 +36,7 @@ writeDb dbFile db = do
   write temp `finally` clean temp
   where
     json = encodePretty' conf games
-    games = sortBy (comparing Game.id) $ Map.elems db
+    games = sortBy (comparing sku) $ Map.elems db
     conf =
       defConfig
       { confIndent = Spaces 2

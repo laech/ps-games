@@ -30,7 +30,7 @@ parseGames date =
 parseGame :: Day -> Value -> Parser Game
 parseGame date =
   withObject "Game" $ \v -> do
-    id <- strip <$> v .: "id"
+    sku <- strip <$> v .: "id"
     attrs <- v .: "attributes"
     name <- strip <$> attrs .: "name"
     releaseDate <- utctDay <$> (attrs .: "release-date")
@@ -38,7 +38,7 @@ parseGame date =
     prices <- attrs .: "default-sku-id" >>= parsePrices attrs
     return
       Game
-      { Game.id = id
+      { sku = sku
       , name = name
       , releaseDate = releaseDate
       , platforms = platforms

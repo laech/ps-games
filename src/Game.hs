@@ -29,7 +29,7 @@ data Prices = Prices
   } deriving (Show, Eq, Generic)
 
 data Game = Game
-  { id :: Text
+  { sku :: Text
   , name :: Text
   , releaseDate :: Day
   , platforms :: [Text]
@@ -43,7 +43,7 @@ $(deriveJSON defaultOptions ''Game)
 update :: Games -> [Game] -> Games
 update = foldl update
   where
-    update games game = Map.insertWith merge (Game.id game) game games
+    update games game = Map.insertWith merge (sku game) game games
 
 merge :: Game -> Game -> Game
 merge new old = new {history = merge' . Map.unions . map history $ [old, new]}
