@@ -9,6 +9,7 @@ module Game.Database
 import qualified Data.ByteString.Lazy as L
 import qualified Data.Map as Map
 
+import Control.Arrow
 import Control.Exception
 import Control.Monad
 import Data.Aeson
@@ -22,10 +23,11 @@ import System.FilePath
 import System.IO
 
 readDb :: FilePath -> IO Games
-readDb dbFile =
-  (eitherDecode <$> L.readFile dbFile) >>= \case
-    Right games -> return $ Map.fromListWith merge . fmap (\x -> (Game.id x, x)) $ games
-    Left err -> fail err
+readDb db = do
+  content <- L.readFile db
+  either fail (pure . process) (eitherDecode content)
+  where
+    process = Map.fromListWith merge . fmap (Game.id &&& Prelude.id)
 
 writeDb :: FilePath -> Games -> IO ()
 writeDb dbFile db = do
