@@ -29,7 +29,7 @@ process dbFile = do
   db <- catchJust doesNotExit (readDb dbFile) (const emptyDb)
   infoM "Game" "Downloading game data..."
   manager <- newTlsManager
-  games <- P.toListM $ games manager
+  games <- P.toListM $ getGames manager
   infoM "Game" ("Downloaded data for " ++ show (length games) ++ " games.")
   writeDb dbFile (update db games)
   where
@@ -39,4 +39,4 @@ process dbFile = do
         else Nothing
     emptyDb = do
       putStrLn "File does not exists, using empty database."
-      return Map.empty
+      pure Map.empty

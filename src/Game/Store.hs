@@ -1,14 +1,21 @@
+{-# LANGUAGE ScopedTypeVariables #-}
+{-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE LambdaCase #-}
 
 module Game.Store
-  ( games
+  ( getGames
   ) where
 
 import qualified Data.HashMap.Strict as HM
 import qualified Data.Map as Map
+import qualified Pipes.Prelude as P
 
+import Control.Exception
 import Control.Monad
-import Data.Aeson
+import Control.Monad.Base
+import Control.Monad.Trans.State.Strict
+import Data.Aeson hiding (decode)
 import Data.Aeson.Types
 import Data.List
 import Data.Map (Map)
@@ -16,27 +23,33 @@ import Data.Maybe
 import Data.Text (Text, strip)
 import Data.Time.Calendar
 import Data.Time.Clock
+import Data.Typeable
 import Game
 import Network.HTTP.Client
 import Pipes
+import Pipes.Aeson
+import Pipes.HTTP
 import System.Log.Logger
 
-parseGames :: Day -> Value -> Parser [Game]
-parseGames date =
-  withObject "Games" $ \v ->
-    mapMaybe (parseMaybe $ parseGame date) <$> v .: "included"
+newtype StoreException =
+  StoreException String
+  deriving (Show, Typeable)
 
-parseGame :: Day -> Value -> Parser Game
-parseGame date =
-  withObject "Game" $ \v -> do
-    sku <- strip <$> v .: "id"
-    attrs <- v .: "attributes"
-    name <- strip <$> attrs .: "name"
-    releaseDate <- utctDay <$> attrs .: "release-date"
-    platforms <- sort . map strip <$> attrs .: "platforms"
-    prices <- attrs .: "default-sku-id" >>= parsePrices attrs
-    pure
-      Game
+instance Exception StoreException
+
+failed :: (MonadBase IO m) => String -> m a
+failed = liftBase . throwIO . StoreException
+
+parseGame :: Day -> Object -> Parser Game
+parseGame date obj = do
+  sku <- strip <$> obj .: "id"
+  attrs <- obj .: "attributes"
+  name <- strip <$> attrs .: "name"
+  releaseDate <- utctDay <$> attrs .: "release-date"
+  platforms <- sort . map strip <$> attrs .: "platforms"
+  prices <- attrs .: "default-sku-id" >>= parsePrices attrs
+  pure
+    Game
       { sku = sku
       , name = name
       , releaseDate = releaseDate
@@ -57,28 +70,38 @@ parsePrices attrs sku = do
     search skus sku =
       let found = maybe (fail "sku not found") pure $ find matching skus
           matching o = HM.lookup "id" o == Just (String sku)
-      in found >>= (.: "prices") >>= (.: "non-plus-user")
+       in found >>= (.: "prices") >>= (.: "non-plus-user")
 
-url :: Int -> String
-url offset =
-  "https://store.playstation.com/valkyrie-api/en/NZ/999/container/STORE-MSF75508-FULLGAMES?size=500&bucket=games&start=" ++
-  show offset
+pageSize = 500
 
-games :: Manager -> Producer Game IO ()
-games = games' 0
+getPageURL :: Int -> String
+getPageURL offset =
+  "https://store.playstation.com/valkyrie-api/en/NZ/999/container/STORE-MSF75508-FULLGAMES?size=" ++
+  show pageSize ++ "&bucket=games&start=" ++ show offset
 
-games' :: Int -> Manager -> Producer Game IO ()
-games' offset manager = do
-  today <- utctDay <$> lift getCurrentTime
-  content <- lift $ readContent manager offset
-  items <- either fail pure (parse content today)
-  unless (null items) $ for (each items) yield >> next items
+getGames :: MonadBase IO m => Manager -> Producer Game m ()
+getGames man = do
+  today <- lift . liftBase $ utctDay <$> getCurrentTime
+  getGamesJSON 0 man >-> P.mapFoldable (parse today)
   where
-    parse content date = eitherDecode content >>= parseEither (parseGames date)
-    next items = games' (offset + length items) manager
+    parse date = parseMaybe $ parseGame date
 
-readContent manager offset = do
-  infoM "Game" ("Downloading game data from offset " ++ show offset ++ "...")
-  request <- parseUrlThrow $ url offset
-  response <- httpLbs request manager
-  pure $ responseBody response
+getGamesJSON :: MonadBase IO m => Int -> Manager -> Producer Object m ()
+getGamesJSON offset man = do
+  page <- lift $ getPageJSON offset man
+  games :: [Object] <- either failed' pure $ parseEither (.: "included") page
+  for (each games) yield
+  unless (null games) $ getGamesJSON (offset + pageSize) man
+  where
+    failed' = lift . failed
+
+getPageJSON :: MonadBase IO m => Int -> Manager -> m Object
+getPageJSON offset man =
+  liftBase $ do
+    infoM "Game" $ "Getting games from offset " ++ show offset ++ "..."
+    req <- parseUrlThrow $ getPageURL offset
+    withHTTP req man $ \resp ->
+      evalStateT decode (responseBody resp) >>= \case
+        Nothing -> failed "no content"
+        Just (Left e) -> failed $ show e
+        Just (Right r) -> pure r

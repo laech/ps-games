@@ -1,3 +1,4 @@
+{-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE OverloadedStrings #-}
 
 module Game.Database
@@ -11,6 +12,7 @@ import qualified Data.Map as Map
 import Control.Arrow
 import Control.Exception
 import Control.Monad
+import Control.Monad.Base
 import Data.Aeson
 import Data.Aeson.Encode.Pretty
 import Data.List
@@ -21,25 +23,26 @@ import System.Directory
 import System.FilePath
 import System.IO
 
-readDb :: FilePath -> IO Games
+readDb :: MonadBase IO m => FilePath -> m Games
 readDb path = do
-  content <- L.readFile path
-  either fail (pure . process) (eitherDecode content)
+  content <- liftBase $ L.readFile path
+  either fail (pure . process) $ eitherDecode content
   where
     process = Map.fromListWith merge . fmap (sku &&& id)
 
-writeDb :: FilePath -> Games -> IO ()
-writeDb path db = do
-  let dir = takeDirectory path
-  temp <- openTempFile dir path
-  write temp `finally` clean temp
+writeDb :: MonadBase IO m => FilePath -> Games -> m ()
+writeDb path db =
+  liftBase $ do
+    let dir = takeDirectory path
+    temp <- openTempFile dir path
+    write path temp `finally` clean temp
   where
     json = encodePretty' jsonConf games
     games = sortBy (comparing sku) $ Map.elems db
-    write (path, handle) = do
+    write dst (path, handle) = do
       L.hPut handle json
       hClose handle
-      renameFile path path
+      renameFile path dst
     clean (path, handle) = do
       hClose handle
       exists <- doesFileExist path
@@ -47,23 +50,23 @@ writeDb path db = do
 
 jsonConf =
   defConfig
-  { confIndent = Spaces 2
-  , confCompare =
-      jsonConfCompare
-        (Map.fromList $
-         zip
-           [ "sku"
-           , "name"
-           , "releaseDate"
-           , "platforms"
-           , "history"
-           , "date"
-           , "upsell"
-           , "actual"
-           , "strikethrough"
-           ]
-           [0 ..])
-  }
+    { confIndent = Spaces 2
+    , confCompare =
+        jsonConfCompare
+          (Map.fromList $
+           zip
+             [ "sku"
+             , "name"
+             , "releaseDate"
+             , "platforms"
+             , "history"
+             , "date"
+             , "upsell"
+             , "actual"
+             , "strikethrough"
+             ]
+             [0 ..])
+    }
 
 -- sort everything else by string (mainly for the dates)
 jsonConfCompare orders x y =

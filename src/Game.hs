@@ -41,7 +41,7 @@ $(deriveJSON defaultOptions ''Prices)
 $(deriveJSON defaultOptions ''Game)
 
 update :: Games -> [Game] -> Games
-update = foldl update
+update = foldl' update
   where
     update games game = Map.insertWith merge (sku game) game games
 
@@ -49,6 +49,6 @@ merge :: Game -> Game -> Game
 merge new old = new {history = merge' . Map.unions . map history $ [old, new]}
   where
     merge' :: Map Day Prices -> Map Day Prices
-    merge' = Map.fromList . getMinDate . groupByPrice . Map.toDescList
-    getMinDate = map (minimumBy $ comparing fst)
-    groupByPrice = groupBy (on (==) snd)
+    merge' = Map.fromList . getMinDate . groupByPrice . Map.toList
+    getMinDate = map $ minimumBy $ comparing fst
+    groupByPrice = groupBy $ on (==) snd
