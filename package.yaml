@@ -1,4 +1,4 @@
-name:                ps-game-price-history
+name:                ps-games
 version:             0.1.0.0
 
 dependencies:
@@ -24,7 +24,7 @@ dependencies:
 - transformers-base
 
 executables:
-  ps-game-price-history:
+  ps-games:
     main:                Main.hs
     source-dirs:         src
     ghc-options:
