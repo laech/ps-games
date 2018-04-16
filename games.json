@@ -53928,6 +53928,21 @@
     }
   },
   {
+    "sku": "EP4068-CUSA09874_00-VRFC1EUBUNDLE001",
+    "name": "VRFC & SPORTSBAR BUNDLE",
+    "releaseDate": "2018-04-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-16": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4068-NPEB00086_00-INFERNOPOOL00001",
     "name": "Inferno Pool",
     "releaseDate": "2009-05-28",
