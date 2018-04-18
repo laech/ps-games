@@ -12,7 +12,6 @@ dependencies:
 - http-client
 - http-client-tls
 - hslogger
-- monad-control
 - pipes
 - pipes-aeson
 - pipes-http
@@ -20,8 +19,6 @@ dependencies:
 - unordered-containers
 - text
 - time
-- transformers
-- transformers-base
 
 executables:
   ps-games:

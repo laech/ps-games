@@ -1167,6 +1167,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 12495,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 4395,
@@ -11014,6 +11019,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 2595,
+        "strikethrough": 10495
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 10495,
@@ -16240,6 +16250,21 @@
     }
   },
   {
+    "sku": "EP0177-CUSA09660_00-Y6Y0POBUNDLEEXT0",
+    "name": "Yakuza 6: The Song of Life and Yakuza 0 Digital Bundle",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0177-CUSA09660_00-YAKUZA6DIGITALPR",
     "name": "Yakuza 6: The Song of Life",
     "releaseDate": "2018-04-17",
@@ -16265,6 +16290,21 @@
       "2018-04-03": {
         "upsell": 11515,
         "actual": 12795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0177-CUSA09660_00-YAKUZA6SONGOFLEN",
+    "name": "Yakuza 6: The Song of Life",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     }
@@ -21011,6 +21051,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 14995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA09642_00-LWAPREORDER00000",
+    "name": "Little Witch Academia: Chamber of Time Pre-Order Bundle",
+    "releaseDate": "2018-05-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     }
@@ -35807,6 +35862,21 @@
     }
   },
   {
+    "sku": "EP1547-CUSA10572_00-EVERSPACEPREBUND",
+    "name": "EVERSPACE™ - Stellar Edition (Preorder)",
+    "releaseDate": "2018-05-22",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": 5116,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1549-CUSA09875_00-911OPERATORPS400",
     "name": "911 Operator",
     "releaseDate": "2017-11-28",
@@ -43751,6 +43821,22 @@
     }
   },
   {
+    "sku": "EP2400-CUSA07988_00-BUNNYMUSTDIE0000",
+    "name": "BUNNY MUST DIE! CHELSEA AND THE 7 DEVILS.",
+    "releaseDate": "2018-04-18",
+    "platforms": [
+      "PS Vita",
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 2245,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP2400-CUSA08073_00-MIKOSTORY2170500",
     "name": "Miko Gakkou Monogatari Kaede Episode",
     "releaseDate": "2017-10-10",
@@ -44533,6 +44619,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-04-10": {
         "upsell": 3595,
         "actual": 3995,
@@ -44563,6 +44654,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-04-10": {
         "upsell": 4135,
         "actual": 4595,
@@ -45148,6 +45244,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": 1676,
         "actual": 2395,
@@ -45873,6 +45974,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 2245,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 3195,
@@ -47003,6 +47109,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 2345,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 3395,
@@ -47134,6 +47245,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": 2556,
         "actual": 3195,
@@ -47179,6 +47295,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       "2018-04-10": {
         "upsell": 2876,
         "actual": 3595,
@@ -56331,6 +56452,36 @@
     ],
     "history": {
       "2018-04-03": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA08948_00-AT2EUGAMEDDX0000",
+    "name": "A.O.T. 2 Deluxe Edition",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 18995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA08948_00-AT2EUHDDGAME0000",
+    "name": "A.O.T. 2",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
         "upsell": null,
         "actual": 11995,
         "strikethrough": null
@@ -71724,6 +71875,11 @@
       "PS4"
     ],
     "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 725,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 565,
@@ -75868,6 +76024,21 @@
     }
   },
   {
+    "sku": "EP8908-CUSA10824_00-HAMPRDC000000001",
+    "name": "ACA NEOGEO POWER SPIKES II",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP8908-CUSA10953_00-HAMPRDC000000001",
     "name": "ACA NEOGEO METAL SLUG 3",
     "releaseDate": "2018-01-05",
@@ -75876,6 +76047,21 @@
     ],
     "history": {
       "2018-01-05": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP8908-CUSA11347_00-HAMPRDC000000001",
+    "name": "ACA NEOGEO MAGICAL DROP III",
+    "releaseDate": "2018-04-17",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-04-18": {
         "upsell": null,
         "actual": 1125,
         "strikethrough": null

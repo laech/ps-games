@@ -9,12 +9,11 @@ module Game.Store
 
 import qualified Data.HashMap.Strict as HM
 import qualified Data.Map as Map
+import qualified Pipes.Parse as P
 import qualified Pipes.Prelude as P
 
 import Control.Exception
 import Control.Monad
-import Control.Monad.Base
-import Control.Monad.Trans.State.Strict
 import Data.Aeson hiding (decode)
 import Data.Aeson.Types
 import Data.List
@@ -37,8 +36,8 @@ newtype StoreException =
 
 instance Exception StoreException
 
-failed :: (MonadBase IO m) => String -> m a
-failed = liftBase . throwIO . StoreException
+failed :: String -> IO a
+failed = throwIO . StoreException
 
 parseGame :: Day -> Object -> Parser Game
 parseGame date obj = do
@@ -79,14 +78,14 @@ getPageURL offset =
   "https://store.playstation.com/valkyrie-api/en/NZ/999/container/STORE-MSF75508-FULLGAMES?size=" ++
   show pageSize ++ "&bucket=games&start=" ++ show offset
 
-getGames :: MonadBase IO m => Manager -> Producer Game m ()
+getGames :: Manager -> Producer Game IO ()
 getGames man = do
-  today <- lift . liftBase $ utctDay <$> getCurrentTime
+  today <- lift $ utctDay <$> getCurrentTime
   getGamesJSON 0 man >-> P.mapFoldable (parse today)
   where
     parse date = parseMaybe $ parseGame date
 
-getGamesJSON :: MonadBase IO m => Int -> Manager -> Producer Object m ()
+getGamesJSON :: Int -> Manager -> Producer Object IO ()
 getGamesJSON offset man = do
   page <- lift $ getPageJSON offset man
   games :: [Object] <- either failed' pure $ parseEither (.: "included") page
@@ -95,13 +94,12 @@ getGamesJSON offset man = do
   where
     failed' = lift . failed
 
-getPageJSON :: MonadBase IO m => Int -> Manager -> m Object
-getPageJSON offset man =
-  liftBase $ do
-    infoM "Game" $ "Getting games from offset " ++ show offset ++ "..."
-    req <- parseUrlThrow $ getPageURL offset
-    withHTTP req man $ \resp ->
-      evalStateT decode (responseBody resp) >>= \case
-        Nothing -> failed "no content"
-        Just (Left e) -> failed $ show e
-        Just (Right r) -> pure r
+getPageJSON :: Int -> Manager -> IO Object
+getPageJSON offset man = do
+  infoM "Game" $ "Getting games from offset " ++ show offset ++ "..."
+  req <- parseUrlThrow $ getPageURL offset
+  withHTTP req man $ \resp ->
+    P.evalStateT decode (responseBody resp) >>= \case
+      Nothing -> failed "no content"
+      Just (Left e) -> failed $ show e
+      Just (Right r) -> pure r

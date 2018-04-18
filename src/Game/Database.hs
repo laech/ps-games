@@ -12,7 +12,6 @@ import qualified Data.Map as Map
 import Control.Arrow
 import Control.Exception
 import Control.Monad
-import Control.Monad.Base
 import Data.Aeson
 import Data.Aeson.Encode.Pretty
 import Data.List
@@ -23,30 +22,23 @@ import System.Directory
 import System.FilePath
 import System.IO
 
-readDb :: MonadBase IO m => FilePath -> m Games
-readDb path = do
-  content <- liftBase $ L.readFile path
-  either fail (pure . process) $ eitherDecode content
+readDb :: FilePath -> IO Games
+readDb path = L.readFile path >>= parse
   where
+    parse content = either fail (pure . process) $ eitherDecode content
     process = Map.fromListWith merge . fmap (sku &&& id)
 
-writeDb :: MonadBase IO m => FilePath -> Games -> m ()
-writeDb path db =
-  liftBase $ do
-    let dir = takeDirectory path
-    temp <- openTempFile dir path
-    write path temp `finally` clean temp
+writeDb :: FilePath -> Games -> IO ()
+writeDb path db = bracket (openTempFile dir path) clean (write path)
   where
+    dir = takeDirectory path
     json = encodePretty' jsonConf games
     games = sortBy (comparing sku) $ Map.elems db
-    write dst (path, handle) = do
-      L.hPut handle json
-      hClose handle
-      renameFile path dst
-    clean (path, handle) = do
-      hClose handle
-      exists <- doesFileExist path
-      when exists $ removeFile path
+    write dst (path, handle) =
+      L.hPut handle json *> hClose handle *> renameFile path dst
+    clean (path, handle) =
+      hClose handle *> doesFileExist path >>= \exists ->
+        when exists $ removeFile path
 
 jsonConf =
   defConfig
