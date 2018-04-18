@@ -1,3 +1,5 @@
+{-# LANGUAGE LambdaCase #-}
+
 module Main where
 
 import qualified Data.Map as Map
@@ -17,26 +19,21 @@ import System.IO.Error
 import System.Log.Logger
 
 main :: IO ()
-main = do
-  updateGlobalLogger rootLoggerName $ setLevel INFO
-  args <- getArgs
-  case args of
+main =
+  setupLogger *> getArgs >>= \case
     [dbFile] -> process dbFile
     _ -> die "Usage: <this-program> <db-json>"
+  where
+    setupLogger = updateGlobalLogger rootLoggerName (setLevel INFO)
 
 process :: FilePath -> IO ()
-process dbFile = do
-  db <- catchJust doesNotExit (readDb dbFile) (const emptyDb)
-  infoM "Game" "Downloading game data..."
-  manager <- newTlsManager
-  games <- P.toListM $ getGames manager
-  infoM "Game" ("Downloaded data for " ++ show (length games) ++ " games.")
-  writeDb dbFile (update db games)
+process dbFile = update <$> getDb <*> getGames' >>= writeDb dbFile
   where
+    getGames' = P.toListM $ getGames =<< newTlsManager
+    getDb = catchJust doesNotExit (readDb dbFile) (const emptyDb)
     doesNotExit e =
       if isDoesNotExistError e
         then Just ()
         else Nothing
-    emptyDb = do
-      putStrLn "File does not exists, using empty database."
-      pure Map.empty
+    emptyDb =
+      Map.empty <$ putStrLn "File does not exists, using empty database."
