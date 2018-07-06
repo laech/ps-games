@@ -8389,6 +8389,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": 13495
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 13495,
@@ -8414,6 +8419,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": 12795
+      },
       "2018-07-01": {
         "upsell": null,
         "actual": 12795,
@@ -8449,6 +8459,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": 9795
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 9795,
@@ -8649,6 +8664,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": 6995
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 6995,
@@ -8829,6 +8849,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 2895,
+        "strikethrough": 11295
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 11295,
@@ -8879,6 +8904,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": 11295
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 11295,
@@ -8909,6 +8939,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": 12795
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 12795,
@@ -8939,6 +8974,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": 13495
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 13495,
@@ -9119,6 +9159,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": 13495
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 13495,
@@ -9144,6 +9189,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": 6995
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 6995,
@@ -9469,6 +9519,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": 6995
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 6995,
@@ -9499,6 +9554,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 6295,
+        "strikethrough": 9795
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 9795,
@@ -9574,6 +9634,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 2695,
+        "strikethrough": 5495
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 5495,
@@ -19782,6 +19847,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 9695,
@@ -21977,7 +22047,7 @@
   {
     "sku": "EP0290-CUSA09424_00-WEHAPPYFEWPRE000",
     "name": "We Happy Few",
-    "releaseDate": "2018-04-13",
+    "releaseDate": "2018-08-10",
     "platforms": [
       "PS4"
     ],
@@ -21992,7 +22062,7 @@
   {
     "sku": "EP0290-CUSA09424_00-WEHAPPYFEWPREDD0",
     "name": "We Happy Few Digital Deluxe",
-    "releaseDate": "2018-04-13",
+    "releaseDate": "2018-08-10",
     "platforms": [
       "PS4"
     ],
@@ -38861,6 +38931,21 @@
         "strikethrough": 8995
       },
       "2017-12-23": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1063-CUSA10134_00-THELOSTCHILD0000",
+    "name": "The Lost Child",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
         "upsell": null,
         "actual": 8995,
         "strikethrough": null
@@ -56326,6 +56411,21 @@
     }
   },
   {
+    "sku": "EP3877-CUSA10026_00-0004550011846175",
+    "name": "Timothy vs the Aliens",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP3904-CUSA09871_00-OURETHEGAME00000",
     "name": "Oure",
     "releaseDate": "2017-10-30",
@@ -56473,6 +56573,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 6295,
@@ -57244,6 +57349,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 4295,
@@ -57279,6 +57389,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 8995,
@@ -62152,6 +62267,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 5495,
@@ -62443,6 +62563,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 5495,
@@ -62483,6 +62608,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 6995,
@@ -62628,6 +62758,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 5495,
@@ -62643,6 +62778,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 9795,
@@ -62708,6 +62848,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 8995,
@@ -62733,6 +62878,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 6995,
@@ -62868,6 +63018,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 6295,
@@ -67092,6 +67247,21 @@
     }
   },
   {
+    "sku": "EP4108-CUSA12006_00-HDDBOOT000000001",
+    "name": "NOBUNAGA'S AMBITION: Taishi",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4108-CUSA12006_00-HDDBOOTBONUS0001",
     "name": "NOBUNAGA'S AMBITION: Taishi with Bonus",
     "releaseDate": "2018-06-08",
@@ -67102,6 +67272,21 @@
       "2018-07-01": {
         "upsell": null,
         "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA12006_00-HDDBOOTDDX000001",
+    "name": "NOBUNAGA'S AMBITION: Taishi Deluxe Edition",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 14995,
         "strikethrough": null
       }
     }
@@ -74772,6 +74957,11 @@
       "PS4"
     ],
     "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 4295,
@@ -75070,6 +75260,21 @@
       "2018-07-01": {
         "upsell": null,
         "actual": 9795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4293-CUSA12009_00-BBTAGPS400001000",
+    "name": "BLAZBLUE CROSS TAG BATTLE",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     }
@@ -76984,7 +77189,8 @@
     "name": "MXGP2 - The Official Motocross Videogame",
     "releaseDate": "2016-04-21",
     "platforms": [
-      "PS3"
+      "PS3",
+      "PS4"
     ],
     "history": {
       "2018-07-01": {
@@ -77004,7 +77210,8 @@
     "name": "MXGP2 - Special Edition",
     "releaseDate": "2016-04-07",
     "platforms": [
-      "PS3"
+      "PS3",
+      "PS4"
     ],
     "history": {
       "2018-07-01": {
@@ -91318,6 +91525,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 1445,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP8934-CUSA09299_00-HORRORCITYSE2017",
+    "name": "The Unknown City (Horror Begins Now.....Episode 1)",
+    "releaseDate": "2018-07-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-06": {
+        "upsell": 1458,
+        "actual": 1945,
         "strikethrough": null
       }
     }
