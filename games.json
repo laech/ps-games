@@ -100313,6 +100313,21 @@
     }
   },
   {
+    "sku": "EP9000-CUSA12392_00-ASTROBOPREORDPSN",
+    "name": "ASTRO BOT Rescue Mission™",
+    "releaseDate": "2018-10-03",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-07-29": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP9000-NPEA00004_00-GLEMMINGSG000001",
     "name": "Lemmings™",
     "releaseDate": "2007-03-23",
