@@ -7,6 +7,11 @@
       "PS3"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -37,6 +42,11 @@
       "PS3"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 5695,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1125,
@@ -2500,6 +2510,21 @@
     }
   },
   {
+    "sku": "EP0001-CUSA05264_00-MARCHINGFIREEMEA",
+    "name": "FOR HONOR Marching Fire Edition",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0001-CUSA05287_00-WEREWOLVSWTHIN01",
     "name": "Werewolves Within",
     "releaseDate": "2017-01-24",
@@ -3118,6 +3143,36 @@
     ],
     "history": {
       "2018-09-26": {
+        "upsell": null,
+        "actual": 12495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0001-CUSA06938_00-STARLINKD01DELUX",
+    "name": "Starlink: Battle for Atlas™ – Deluxe Edition",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 15795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0001-CUSA06938_00-STARLINKD01DIGIT",
+    "name": "Starlink: Battle for Atlas™",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
         "upsell": null,
         "actual": 12495,
         "strikethrough": null
@@ -6052,6 +6107,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -7766,6 +7826,36 @@
     }
   },
   {
+    "sku": "EP0002-CUSA12443_00-CODBO4BASEBUNDLE",
+    "name": "Call of Duty®: Black Ops 4",
+    "releaseDate": "2018-10-12",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0002-CUSA12443_00-CODBO4DELUXE0001",
+    "name": "Call of Duty®: Black Ops 4 - Digital Deluxe",
+    "releaseDate": "2018-10-12",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 16995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0002-CUSA12443_00-CODBO4DELUXEPRE1",
     "name": "Call of Duty®: Black Ops 4 - Digital Deluxe",
     "releaseDate": "2018-10-12",
@@ -7776,6 +7866,21 @@
       "2018-07-01": {
         "upsell": null,
         "actual": 16995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0002-CUSA12443_00-CODBO4DLXPLUS001",
+    "name": "Call of Duty®: Black Ops 4 - Digital Deluxe Enhanced",
+    "releaseDate": "2018-10-12",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 19995,
         "strikethrough": null
       }
     }
@@ -10519,6 +10624,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-10-06": {
         "upsell": null,
         "actual": 2695,
@@ -10574,6 +10684,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
       "2018-10-06": {
         "upsell": null,
         "actual": 3495,
@@ -12549,6 +12664,11 @@
       "PS3"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 2695,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -13836,6 +13956,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 975,
@@ -14858,6 +14983,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3495
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3495,
@@ -16368,6 +16498,21 @@
       "2018-06-01": {
         "upsell": null,
         "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0082-CUSA11201_00-DAY1PREORDER0000",
+    "name": "LEFT ALIVE® DAY ONE EDITION PRE-ORDER",
+    "releaseDate": "2019-03-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 10495,
         "strikethrough": null
       }
     }
@@ -20644,6 +20789,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": 6995
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 5495,
@@ -23677,6 +23827,11 @@
       "PS3"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 1515,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1295,
@@ -28771,6 +28926,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 4295,
@@ -28796,6 +28956,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 15795,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 6295,
@@ -28810,6 +28975,21 @@
         "upsell": null,
         "actual": 8995,
         "strikethrough": 15795
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA06014_00-TEKKEN7DLXED0002",
+    "name": "TEKKEN 7 - Rematch Edition",
+    "releaseDate": "2018-10-10",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
       }
     }
   },
@@ -29181,6 +29361,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 4395,
@@ -31882,6 +32067,21 @@
       "2018-07-13": {
         "upsell": null,
         "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0748-CUSA13643_00-TETRISEFFECTPDLC",
+    "name": "Tetris® Effect Digital Deluxe Edition (Pre-Order)",
+    "releaseDate": "2018-11-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": 6295,
+        "actual": 6995,
         "strikethrough": null
       }
     }
@@ -34787,6 +34987,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 11295,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3499,
@@ -35430,6 +35635,21 @@
     }
   },
   {
+    "sku": "EP1001-CUSA12320_00-WWE2K19000000000",
+    "name": "WWE 2K19",
+    "releaseDate": "2018-10-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1001-CUSA12320_00-WWE2K19DIGDELUXE",
     "name": "WWE 2K19 Digital Deluxe Edition",
     "releaseDate": "2018-10-05",
@@ -35535,6 +35755,21 @@
     }
   },
   {
+    "sku": "EP1001-CUSA13619_00-0000000000000001",
+    "name": "NBA 2K Playgrounds 2",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1001-CUSA13619_00-PLAYGROUNDSPREOR",
     "name": "NBA 2K Playgrounds 2 Pre-Order",
     "releaseDate": "2018-10-16",
@@ -35545,6 +35780,21 @@
       "2018-09-26": {
         "upsell": null,
         "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1001-CUSA13946_00-BORDERLANDS2VRPO",
+    "name": "Borderlands 2 VR",
+    "releaseDate": "2018-12-14",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     }
@@ -41371,6 +41621,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2895,
@@ -43376,6 +43631,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2095,
@@ -46811,6 +47071,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 2695,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 975,
@@ -48171,6 +48436,21 @@
     }
   },
   {
+    "sku": "EP1258-CUSA12202_00-4152434849414354",
+    "name": "Evasion",
+    "releaseDate": "2018-10-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1258-CUSA12202_00-EVASIONPREORDER1",
     "name": "Evasion",
     "releaseDate": "2018-10-09",
@@ -49468,6 +49748,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 3195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1546-CUSA12790_00-MYMEMORYOFUSGAME",
+    "name": "My Memory of Us",
+    "releaseDate": "2018-10-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3495,
         "strikethrough": null
       }
     }
@@ -51442,6 +51737,21 @@
     }
   },
   {
+    "sku": "EP1703-CUSA12016_00-CRAZYSOFT0PALMRE",
+    "name": "Palm Reading Premium",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 2195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1704-CUSA03900_00-0SPHEROIDSBUNDLE",
     "name": "Spheroids",
     "releaseDate": "2017-01-10",
@@ -51838,6 +52148,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 2245,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 485,
@@ -55779,6 +56094,21 @@
     }
   },
   {
+    "sku": "EP2052-CUSA11547_00-0000000000000001",
+    "name": "Overload",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 4395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP2054-CUSA01369_00-PLAYDEADD11LIMBO",
     "name": "LIMBO",
     "releaseDate": "2015-02-25",
@@ -56654,6 +56984,21 @@
         "upsell": null,
         "actual": 1445,
         "strikethrough": 2395
+      }
+    }
+  },
+  {
+    "sku": "EP2107-CUSA13340_00-MARKOFTHENINJARE",
+    "name": "Mark of the Ninja: Remastered",
+    "releaseDate": "2018-10-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
       }
     }
   },
@@ -58647,6 +58992,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": 0,
+        "actual": 5995,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 5995,
@@ -62637,6 +62987,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1125,
@@ -62745,6 +63100,21 @@
       "2018-06-01": {
         "upsell": null,
         "actual": 3195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP3036-CUSA11309_00-0000000000000000",
+    "name": "EARTH DEFENSE FORCE4.1 WINGDIVER THE SHOOTER",
+    "releaseDate": "2018-10-11",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3895,
         "strikethrough": null
       }
     }
@@ -63375,6 +63745,21 @@
     }
   },
   {
+    "sku": "EP3359-CUSA08368_00-THCOTWBUNDLE2019",
+    "name": "theHunter™: Call of the Wild - 2019 Edition",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP3367-CUSA08032_00-DEADBYDAYLIGHT00",
     "name": "Dead by Daylight: Special Edition",
     "releaseDate": "2017-06-23",
@@ -63572,6 +63957,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 485,
@@ -63672,6 +64062,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1125,
@@ -63692,6 +64087,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -70294,6 +70694,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": 3495
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -80836,6 +81241,21 @@
     }
   },
   {
+    "sku": "EP4133-CUSA04849_00-THESURGEAUGMENED",
+    "name": "The Surge - Augmented Edition",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4133-CUSA04849_00-THESURGECOMPEDIT",
     "name": "The Surge: Complete Edition",
     "releaseDate": "2017-12-05",
@@ -81187,6 +81607,21 @@
         "upsell": null,
         "actual": 4896,
         "strikethrough": 6995
+      }
+    }
+  },
+  {
+    "sku": "EP4133-CUSA10360_00-SPACEHULKTACTICS",
+    "name": "Space Hulk: Tactics",
+    "releaseDate": "2018-10-09",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
       }
     }
   },
@@ -82275,6 +82710,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": 5695,
+        "actual": 6295,
+        "strikethrough": 11995
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 6295,
@@ -84834,6 +85274,21 @@
     }
   },
   {
+    "sku": "EP4235-CUSA06138_00-BCGAMETHEMESBNDL",
+    "name": "Battalion Commander&Themes",
+    "releaseDate": "2018-10-10",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4235-NPEB02440_00-KAZPS3000000000E",
     "name": "KILLALLZOMBIES",
     "releaseDate": "2017-03-17",
@@ -85763,6 +86218,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 8995,
@@ -86213,6 +86673,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       "2018-10-06": {
         "upsell": null,
         "actual": 6995,
@@ -89592,6 +90057,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 1445
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 1445,
@@ -95942,6 +96412,21 @@
     }
   },
   {
+    "sku": "EP4459-CUSA13746_00-SHAPESHIFTINGPRE",
+    "name": "The Shapeshifting Detective",
+    "releaseDate": "2018-11-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": 1676,
+        "actual": 2095,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4459-NPEB01964_00-MASTERREBOOT1HDD",
     "name": "Master Reboot",
     "releaseDate": "2014-03-05",
@@ -95949,6 +96434,11 @@
       "PS3"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": 0,
+        "actual": 1125,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1125,
@@ -100051,6 +100541,21 @@
     }
   },
   {
+    "sku": "EP5091-CUSA13589_00-6663429942732996",
+    "name": "Pixel Ripped 1989",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": 3196,
+        "actual": 3995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP5266-CUSA13350_00-HYAKKICASTLE0001",
     "name": "Haunted Dungeons：Hyakki Castle",
     "releaseDate": "2018-08-30",
@@ -102283,6 +102788,21 @@
         "upsell": null,
         "actual": 3495,
         "strikethrough": 4395
+      }
+    }
+  },
+  {
+    "sku": "EP8915-CUSA12053_00-JBGPARTYPACK5PS4",
+    "name": "The Jackbox Party Pack 5",
+    "releaseDate": "2018-10-16",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
       }
     }
   },
@@ -105159,6 +105679,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -106282,6 +106807,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1595,
@@ -106667,6 +107197,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -107262,6 +107797,11 @@
       "PS4"
     ],
     "history": {
+      "2018-10-16": {
+        "upsell": 6395,
+        "actual": 6995,
+        "strikethrough": 11995
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 11995,
