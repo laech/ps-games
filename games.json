@@ -522,6 +522,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 4497,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 8995,
@@ -642,6 +647,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -977,6 +987,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 2395,
@@ -1617,6 +1632,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 5495,
@@ -2247,6 +2267,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 2695,
@@ -2412,6 +2437,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 3197,
         "actual": 5596,
@@ -2612,6 +2642,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 9995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -2717,6 +2752,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 2695,
@@ -3357,6 +3397,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 12495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 5495,
@@ -3387,6 +3432,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 15795,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 9795,
@@ -3417,6 +3467,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 3495,
@@ -3715,6 +3770,36 @@
       "2018-08-27": {
         "upsell": null,
         "actual": 17395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0001-CUSA13885_00-FCBDLXPREORDER00",
+    "name": "Far Cry® New Dawn Deluxe Edition",
+    "releaseDate": "2019-02-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 9595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0001-CUSA13885_00-FCBSTDPREORDER00",
+    "name": "Far Cry® New Dawn",
+    "releaseDate": "2019-02-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 7995,
         "strikethrough": null
       }
     }
@@ -5247,6 +5332,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 673,
+        "strikethrough": 2495
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2495,
@@ -5996,6 +6086,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1321,
+        "strikethrough": 4895
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 4895,
@@ -6177,6 +6272,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 2395
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 2395,
@@ -6302,6 +6402,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -8141,6 +8246,36 @@
     }
   },
   {
+    "sku": "EP0002-CUSA14876_00-CTRDELUXEPRE0001",
+    "name": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
+    "releaseDate": "2019-06-21",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11295,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0002-CUSA14876_00-CTRSTANDARDPRE01",
+    "name": "Crash™ Team Racing Nitro-Fueled",
+    "releaseDate": "2019-06-21",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0002-NPEB00101_00-CALLOFDUTYCLSCEN",
     "name": "Call of Duty® Classic",
     "releaseDate": "2009-12-10",
@@ -8609,6 +8744,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 2395
+      },
       "2018-11-10": {
         "upsell": null,
         "actual": 2395,
@@ -8946,6 +9086,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -10129,6 +10274,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3495
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -10329,6 +10479,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 3373,
+        "actual": 13495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 13495,
@@ -11139,6 +11294,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 4295,
@@ -11164,6 +11324,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 6295,
@@ -11622,6 +11787,21 @@
     }
   },
   {
+    "sku": "EP0006-CUSA08670_00-BATTLEFIELDWWBUN",
+    "name": "Battlefield World War Bundle",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0006-CUSA08670_00-BFVDELUXEEDITION",
     "name": "Battlefield™ V Deluxe Edition",
     "releaseDate": "2018-11-20",
@@ -11822,6 +12002,21 @@
     }
   },
   {
+    "sku": "EP0006-CUSA10014_00-EASPORTSBUNDLEEU",
+    "name": "EA SPORTS™ 19 Bundle",
+    "releaseDate": "2018-11-29",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 17495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0006-CUSA10014_00-HALLOFFAMEBUNDLE",
     "name": "Madden NFL 19:  Hall of Fame Edition",
     "releaseDate": "2018-08-07",
@@ -11845,6 +12040,21 @@
     ],
     "history": {
       "2018-08-10": {
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0006-CUSA10014_00-MADDEN19FIFA19EU",
+    "name": "Madden NFL 19 - FIFA 19 Bundle",
+    "releaseDate": "2018-12-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
         "upsell": null,
         "actual": 12795,
         "strikethrough": null
@@ -12092,6 +12302,21 @@
     }
   },
   {
+    "sku": "EP0006-CUSA11608_00-FIFA19NHL19BUNDL",
+    "name": "FIFA 19 - NHL™ 19 Bundle",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 12795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0006-CUSA11608_00-FIFA19PREORDEXEU",
     "name": "FIFA 19 Champions Edition",
     "releaseDate": "2018-09-25",
@@ -12145,6 +12370,21 @@
     ],
     "history": {
       "2018-10-06": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0006-CUSA11608_00-THEJOURNEYBUNDLE",
+    "name": "FIFA The Journey Trilogy",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
         "upsell": null,
         "actual": 11995,
         "strikethrough": null
@@ -12759,6 +12999,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 628,
+        "strikethrough": 2095
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 2095,
@@ -13589,6 +13834,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1071,
+        "strikethrough": 3573
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -14354,6 +14604,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": 3495
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3495,
@@ -15078,6 +15333,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2095,
@@ -15703,6 +15963,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 1747,
         "actual": 2621,
@@ -15768,6 +16033,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 2747,
         "actual": 4121,
@@ -16179,6 +16449,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 10495,
@@ -16778,6 +17053,21 @@
     }
   },
   {
+    "sku": "EP0082-CUSA09264_00-JC4BASEDAY000001",
+    "name": "Just Cause 4 - Standard Edition",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0082-CUSA09264_00-JC4BASEPRE000001",
     "name": "Just Cause 4 - Standard Edition",
     "releaseDate": "2018-12-04",
@@ -16793,6 +17083,21 @@
     }
   },
   {
+    "sku": "EP0082-CUSA09264_00-JC4DELDAY0000001",
+    "name": "Just Cause 4 - Digital Deluxe Edition",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0082-CUSA09264_00-JC4DELPRE0000001",
     "name": "Just Cause 4 - Digital Deluxe Edition",
     "releaseDate": "2018-12-03",
@@ -16803,6 +17108,21 @@
       "2018-07-01": {
         "upsell": null,
         "actual": 13495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0082-CUSA09264_00-JC4GOLDDAY000001",
+    "name": "Just Cause 4 - Gold Edition",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 16495,
         "strikethrough": null
       }
     }
@@ -16930,6 +17250,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3395,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 1697,
         "actual": 2546,
@@ -17123,6 +17448,21 @@
       "2018-11-21": {
         "upsell": null,
         "actual": 2395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0082-CUSA11846_00-LASTREMNANTBUNDL",
+    "name": "THE LAST REMNANT Remastered",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     }
@@ -17635,6 +17975,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2695,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -18198,6 +18543,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -19168,6 +19518,21 @@
     }
   },
   {
+    "sku": "EP0096-CUSA13970_00-HNANDHASBUNDLEEU",
+    "name": "Hello Neighbor Bundle",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0096-CUSA13970_00-HNHASPREORDER000",
     "name": "Hello Neighbor Hide and Seek",
     "releaseDate": "2018-12-07",
@@ -19177,6 +19542,21 @@
     "history": {
       "2018-11-10": {
         "upsell": 5665,
+        "actual": 6295,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0096-CUSA13970_00-HNHIDEANDSEEK4EU",
+    "name": "Hello Neighbor Hide and Seek",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
         "actual": 6295,
         "strikethrough": null
       }
@@ -20634,6 +21014,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 4295,
@@ -20709,6 +21094,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 6995,
@@ -20729,6 +21119,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3995
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3995,
@@ -20934,6 +21329,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3195
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3195,
@@ -21449,6 +21849,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 7995,
@@ -21474,6 +21879,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 6295,
@@ -22709,6 +23119,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1295,
@@ -23512,6 +23927,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5795,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 2395,
@@ -24102,6 +24522,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 2095
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 2095,
@@ -27075,6 +27500,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 485,
@@ -27132,6 +27562,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 795,
@@ -28761,6 +29196,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 4198,
@@ -29171,6 +29611,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 5495,
@@ -29871,6 +30316,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": 3195
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3195,
@@ -30411,6 +30861,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 6295,
@@ -30566,6 +31021,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 16495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 9795,
@@ -30641,6 +31101,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 20495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 10495,
@@ -30671,6 +31136,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 6995,
@@ -30906,6 +31376,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 8995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 5495,
@@ -31074,6 +31549,66 @@
       "2018-07-27": {
         "upsell": null,
         "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA11638_00-JFORCEDLXPREORD0",
+    "name": "JUMP FORCE - Deluxe Edition Pre-Order Bundle",
+    "releaseDate": "2019-02-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 16495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA11638_00-JFORCESTDPREORD0",
+    "name": "JUMP FORCE - Pre-Order Bundle",
+    "releaseDate": "2019-02-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA11638_00-JFORCEULTPREORD0",
+    "name": "JUMP FORCE - Ultimate Edition Pre-Order Bundle",
+    "releaseDate": "2019-02-12",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 18995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP0700-CUSA12287_00-TOVDEPREORDER001",
+    "name": "Tales of Vesperia™: Definitive Edition - Pre-Order",
+    "releaseDate": "2019-01-11",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     }
@@ -31301,6 +31836,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1071,
+        "strikethrough": 3573
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3573,
@@ -31331,6 +31871,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1786,
+        "strikethrough": 3573
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3573,
@@ -32788,6 +33333,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2395,
@@ -32813,6 +33363,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2395,
@@ -33307,6 +33862,21 @@
     }
   },
   {
+    "sku": "EP0757-CUSA02482_00-MONSTERBOYATCK00",
+    "name": "Monster Boy and the Cursed Kingdom",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP0757-CUSA04750_00-OCEANHORN0000001",
     "name": "Oceanhorn - Monster of Uncharted Seas",
     "releaseDate": "2016-09-07",
@@ -33480,6 +34050,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -33520,6 +34095,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 269,
+        "strikethrough": 1795
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1795,
@@ -33535,6 +34115,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 239,
+        "strikethrough": 1595
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
@@ -33924,6 +34509,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 485,
@@ -34202,6 +34792,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": 2695
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 2695,
@@ -35000,6 +35595,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 245,
+        "strikethrough": 485
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 485,
@@ -35119,6 +35719,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 565,
+        "strikethrough": 795
+      },
       "2018-07-13": {
         "upsell": null,
         "actual": 795,
@@ -37035,6 +37640,21 @@
     }
   },
   {
+    "sku": "EP1001-CUSA12525_00-NBA2K19PG2BUNDLE",
+    "name": "NBA 2K19 + NBA 2K Playgrounds 2 Bundle",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 14295,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1001-CUSA13619_00-0000000000000001",
     "name": "NBA 2K Playgrounds 2",
     "releaseDate": "2018-10-16",
@@ -37187,6 +37807,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -37865,6 +38490,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1595,
@@ -38206,6 +38836,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": 3495
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -38999,6 +39634,36 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 4995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1003-CUSA10300_00-RAGE2PREORDERDLX",
+    "name": "RAGE 2: Deluxe Edition Preorder",
+    "releaseDate": "2019-05-14",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 14995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1003-CUSA10300_00-RAGE2PREORDERSTD",
+    "name": "RAGE 2 Preorder",
+    "releaseDate": "2019-05-14",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
         "strikethrough": null
       }
     }
@@ -39856,6 +40521,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1595,
@@ -40196,6 +40866,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 797,
+        "strikethrough": 1595
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
@@ -42212,6 +42887,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 4895,
@@ -42346,6 +43026,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1195,
@@ -42386,6 +43071,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1445,
@@ -42629,6 +43319,21 @@
     }
   },
   {
+    "sku": "EP1018-CUSA00135_00-ARKHAMCOLLECTION",
+    "name": "Batman: Arkham Collection",
+    "releaseDate": "2018-11-30",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1018-CUSA00135_00-BAKPREMIUMED0000",
     "name": "Batman: Arkham Knight Premium Edition",
     "releaseDate": "2015-06-23",
@@ -42636,6 +43341,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 13495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -42666,6 +43376,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2245,
@@ -43031,6 +43746,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 2623,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 10495,
@@ -43954,6 +44674,21 @@
     }
   },
   {
+    "sku": "EP1018-CUSA13509_00-LEGOMOVIE2PRE000",
+    "name": "The LEGO Movie 2 Videogame",
+    "releaseDate": "2019-02-27",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1018-NPEB00070_00-WATCHMENFULLGAME",
     "name": "Watchmen: The End Is Nigh",
     "releaseDate": "2009-03-12",
@@ -44651,6 +45386,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1795,
@@ -45181,6 +45921,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2095,
@@ -45316,6 +46061,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1945,
@@ -47768,6 +48518,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -48951,6 +49706,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1795,
@@ -50208,6 +50968,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 795,
@@ -50313,6 +51078,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-01": {
         "upsell": null,
         "actual": 4895,
@@ -50434,6 +51204,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 0,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 3195,
@@ -50969,6 +51744,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -51221,6 +52001,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": 3495
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3495,
@@ -51408,6 +52193,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": 3995
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 3995,
@@ -51669,6 +52459,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": null
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 1595,
@@ -52134,6 +52929,21 @@
     }
   },
   {
+    "sku": "EP1590-CUSA13379_00-000VANEPRESALEEU",
+    "name": "Vane",
+    "releaseDate": "2019-01-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": 2876,
+        "actual": 3595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1592-CUSA05200_00-CC2016POVERDRIVE",
     "name": "Pressure Overdrive",
     "releaseDate": "2017-07-25",
@@ -52517,6 +53327,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 565,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -52537,6 +53352,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -52557,6 +53377,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -52840,6 +53665,21 @@
     }
   },
   {
+    "sku": "EP1661-CUSA13442_00-SYPS4ENCYCLEEDGE",
+    "name": "Energy Cycle Edge",
+    "releaseDate": "2018-12-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1661-PCSB00944_00-G000000000000866",
     "name": "Energy Cycle",
     "releaseDate": "2017-08-04",
@@ -53035,6 +53875,21 @@
     }
   },
   {
+    "sku": "EP1661-PCSB01291_00-G000000000001202",
+    "name": "Energy Cycle Edge",
+    "releaseDate": "2018-12-05",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1662-CUSA03395_00-VERDUNPS40000000",
     "name": "Verdun",
     "releaseDate": "2016-08-30",
@@ -53122,6 +53977,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": 2395
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 2395,
@@ -53202,6 +54062,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": 2395
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 2395,
@@ -53332,6 +54197,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": 3895
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 3895,
@@ -53532,6 +54402,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": 3195
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3195,
@@ -53889,6 +54764,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -53935,6 +54815,21 @@
     ],
     "history": {
       "2018-10-16": {
+        "upsell": null,
+        "actual": 2195,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1703-CUSA12017_00-CRAZYSOFT0ASTROL",
+    "name": "Astrology and Horoscopes Premium",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
         "upsell": null,
         "actual": 2195,
         "strikethrough": null
@@ -54086,6 +54981,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 645,
@@ -54313,6 +55213,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 325,
@@ -54702,6 +55607,21 @@
     }
   },
   {
+    "sku": "EP1833-CUSA12667_00-MUTANTYEARZERO01",
+    "name": "Mutant Year Zero: Road to Eden",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5695,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP1833-CUSA12667_00-MYZROTOEPREORDER",
     "name": "Mutant Year Zero: Road to Eden",
     "releaseDate": "2018-12-04",
@@ -54804,6 +55724,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": 4895
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 4895,
@@ -54849,6 +55774,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3195
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 3195,
@@ -54879,6 +55809,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3195
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 3195,
@@ -55172,6 +56107,21 @@
       "2018-07-13": {
         "upsell": null,
         "actual": 2895,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP1884-CUSA12145_00-DANGERZONEBUNDLE",
+    "name": "Danger Zone Bundle: Danger Zone and Danger Zone 2",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3095,
         "strikethrough": null
       }
     }
@@ -55504,6 +56454,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1295,
@@ -55609,6 +56564,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1997,
@@ -56751,6 +57711,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 4895,
@@ -56821,6 +57786,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 4895,
@@ -57126,6 +58096,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -58945,6 +59920,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3395
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 975,
@@ -60694,6 +61674,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -60749,6 +61734,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 2395,
@@ -60850,6 +61840,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 3195,
@@ -61612,6 +62607,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": 1205,
         "actual": 1445,
@@ -61632,6 +62632,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": 955,
         "actual": 1195,
@@ -61937,6 +62942,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1595,
@@ -62158,6 +63168,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 2447,
         "actual": 3671,
@@ -62238,6 +63253,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 1597,
         "actual": 2396,
@@ -62449,6 +63469,21 @@
     }
   },
   {
+    "sku": "EP2376-CUSA08937_00-PPRVR00000000001",
+    "name": "Picture Party VR",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2745,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP2377-CUSA05308_00-COMMANDELUXEPACK",
     "name": "Elite Dangerous: Commander Deluxe Edition",
     "releaseDate": "2017-06-27",
@@ -62621,6 +63656,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5795,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 2395,
@@ -63080,6 +64120,51 @@
     }
   },
   {
+    "sku": "EP2475-CUSA12810_00-P3DDAYONEEDITION",
+    "name": "Persona 3: Dancing in Moonlight DAY ONE EDITION",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP2475-CUSA12813_00-ENDLESSNIGHTDAY1",
+    "name": "Persona Dancing: Endless Night Collection - DAY ONE EDITION",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": 14845,
+        "actual": 16495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP2475-CUSA12813_00-P5DDAYONEEDITION",
+    "name": "Persona 5: Dancing in Starlight - DAY ONE EDITION",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP2475-PCSB01093_00-UTAWAREITSUKAMEN",
     "name": "Utawarerumono: Mask of Deception",
     "releaseDate": "2017-05-23",
@@ -63170,6 +64255,51 @@
     }
   },
   {
+    "sku": "EP2475-PCSB01256_00-P3DDAYONEEDITION",
+    "name": "Persona 3: Dancing in Moonlight- DAY ONE EDITION",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP2475-PCSB01257_00-P3DP5DMETADAYONE",
+    "name": "P3D & P5D Bundle + Megaverse Costume Pack",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP2475-PCSB01257_00-P5DDAYONEEDITION",
+    "name": "Persona 5: Dancing in Starlight - DAY ONE EDITION",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS Vita"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP2477-CUSA08144_00-4444444444444444",
     "name": "SUPERHOT MIND IS SOFTWARE BUNDLE",
     "releaseDate": "2017-07-19",
@@ -63207,6 +64337,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1595,
@@ -63237,6 +64372,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 2395,
@@ -63399,6 +64539,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 1275,
         "actual": 1595,
@@ -64588,6 +65733,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1795,
@@ -64803,6 +65953,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1945,
@@ -65266,6 +66421,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 1595,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP2941-CUSA12473_00-D0A0G0B0R0DIVE00",
+    "name": "David Attenborough's Great Barrier Reef Dive",
+    "releaseDate": "2018-12-03",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": 731,
+        "actual": 1045,
         "strikethrough": null
       }
     }
@@ -66268,6 +67438,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2245,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1125,
@@ -66301,6 +67476,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 1045,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP3333-CUSA11897_00-SUPERSTREETGAME0",
+    "name": "Super Street: The Game",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
         "strikethrough": null
       }
     }
@@ -66656,6 +67846,21 @@
       "2018-06-01": {
         "upsell": 636,
         "actual": 795,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP3405-CUSA14366_00-0000000REDMATTER",
+    "name": "Red Matter",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
         "strikethrough": null
       }
     }
@@ -67353,6 +68558,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 8895,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 5337,
         "actual": 7116,
@@ -67373,6 +68583,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5695,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 3417,
         "actual": 4556,
@@ -67917,6 +69132,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -68988,6 +70208,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1795,
@@ -69068,6 +70293,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2895,
@@ -69343,6 +70573,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 6295
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1795,
@@ -70209,6 +71444,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1125,
+        "strikethrough": 3495
+      },
       "2018-07-06": {
         "upsell": null,
         "actual": 3495,
@@ -70349,6 +71589,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 485,
@@ -70489,6 +71734,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": 2099,
         "actual": 6297,
@@ -73373,6 +74623,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -75407,6 +76662,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3195
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3195,
@@ -75432,6 +76692,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3195
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3195,
@@ -76443,6 +77708,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 801,
+        "strikethrough": 2673
+      },
       "2018-06-01": {
         "upsell": null,
         "actual": 2673,
@@ -76513,6 +77783,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1071,
+        "strikethrough": 3573
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 3573,
@@ -77118,6 +78393,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": 3595
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 3595,
@@ -77138,6 +78418,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 725,
+        "strikethrough": 2895
+      },
       "2018-04-03": {
         "upsell": null,
         "actual": 2895,
@@ -77418,6 +78703,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 2095
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 2095,
@@ -77483,6 +78773,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3195
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3195,
@@ -77513,6 +78808,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3195
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 3195,
@@ -77756,6 +79056,21 @@
     }
   },
   {
+    "sku": "EP4064-CUSA10869_00-GENESISALPHA1BN1",
+    "name": "Genesis Alpha One (Pre-Order)",
+    "releaseDate": "2019-01-29",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4064-CUSA10870_00-OVERCOOKED200000",
     "name": "Overcooked! 2",
     "releaseDate": "2018-08-07",
@@ -77818,6 +79133,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": 2395
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2395,
@@ -78023,6 +79343,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 485,
@@ -79604,6 +80929,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1125,
@@ -81122,6 +82452,66 @@
     }
   },
   {
+    "sku": "EP4108-CUSA14011_00-APPA11RORONA0000",
+    "name": "Atelier Rorona ~The Alchemist of Arland~ DX",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA14011_00-BDLARLAND1230000",
+    "name": "Atelier Arland Series Deluxe Pack",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 14495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA14014_00-APPA12TOTORI0000",
+    "name": "Atelier Totori ~The Adventurer of Arland~ DX",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4108-CUSA14015_00-APPA13MERURU0000",
+    "name": "Atelier Meruru ~The Apprentice of Arland~ DX",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4108-NPEB01129_00-DOA5HDDBOOT01000",
     "name": "Dead or Alive® 5",
     "releaseDate": "2013-03-06",
@@ -82361,6 +83751,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1945,
@@ -82543,6 +83938,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -82588,6 +83988,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 9795,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 4295,
@@ -82618,6 +84023,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -83887,6 +85297,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 2095
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -84012,6 +85427,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 5495
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 5495,
@@ -84192,6 +85612,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 2398,
+        "actual": 7995,
+        "strikethrough": null
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 7995,
@@ -86014,6 +87439,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -86244,6 +87674,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 11995,
@@ -88635,6 +90070,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -88655,6 +90095,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -88821,6 +90266,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 585,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 325,
@@ -88841,6 +90291,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 795,
@@ -88909,6 +90364,21 @@
       "2018-06-01": {
         "upsell": null,
         "actual": 7995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4249-CUSA13210_00-BIGBASHBOOM00000",
+    "name": "BIG BASH BOOM",
+    "releaseDate": "2018-11-29",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11295,
         "strikethrough": null
       }
     }
@@ -89712,6 +91182,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4295,
+        "strikethrough": null
+      },
       "2018-07-13": {
         "upsell": null,
         "actual": 6995,
@@ -89992,6 +91467,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -90422,6 +91902,21 @@
       "2017-12-23": {
         "upsell": null,
         "actual": 3495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4295-CUSA13367_00-ASTERIXXXL2EUR00",
+    "name": "Asterix & Obelix XXL 2",
+    "releaseDate": "2018-11-29",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 8995,
         "strikethrough": null
       }
     }
@@ -90932,6 +92427,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2695,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 485,
@@ -91393,6 +92893,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 1047,
+        "actual": 2095,
+        "strikethrough": null
+      },
       "2018-07-13": {
         "upsell": null,
         "actual": 2095,
@@ -92772,6 +94277,36 @@
       "2018-06-01": {
         "upsell": null,
         "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4356-CUSA10100_00-RIDE3FULLGAME000",
+    "name": "RIDE 3",
+    "releaseDate": "2018-11-30",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 11995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4356-CUSA10100_00-RIDE3GOLDEDITION",
+    "name": "RIDE 3 - Gold Edition",
+    "releaseDate": "2018-11-30",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 16495,
         "strikethrough": null
       }
     }
@@ -94216,6 +95751,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": 2970,
         "actual": 3495,
@@ -94291,6 +95831,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 10495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": 5770,
         "actual": 6295,
@@ -94711,6 +96256,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1595,
@@ -95062,6 +96612,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2895,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1295,
@@ -95335,6 +96890,21 @@
     }
   },
   {
+    "sku": "EP4384-CUSA06139_00-TDPS4BUNDLE00000",
+    "name": "Tower Defense Collection 7 in 1",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4384-CUSA06141_00-ISBUNDLEPS400000",
     "name": "Iron Sea Defenders Bundle",
     "releaseDate": "2018-06-06",
@@ -95512,6 +97082,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 795,
@@ -96863,6 +98438,21 @@
     }
   },
   {
+    "sku": "EP4389-CUSA08387_00-JAGGEDALLIANCEEU",
+    "name": "Jagged Alliance: Rage!",
+    "releaseDate": "2018-12-06",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4389-CUSA08798_00-DS3DELUXEPREORD0",
     "name": "Darksiders III Digital Deluxe Edition Pre-order",
     "releaseDate": "2018-11-26",
@@ -97392,6 +98982,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-11-10": {
         "upsell": null,
         "actual": 645,
@@ -97464,6 +99059,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 645,
@@ -97992,6 +99592,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 795,
@@ -98188,6 +99793,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-11-10": {
         "upsell": null,
         "actual": 645,
@@ -99385,6 +100995,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1945,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 395,
@@ -99405,6 +101020,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2245,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 325,
@@ -100797,6 +102417,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3095
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 3095,
@@ -101269,6 +102894,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 645,
+        "strikethrough": 1595
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 1595,
@@ -101296,6 +102926,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 1295
+      },
       "2018-07-05": {
         "upsell": null,
         "actual": 1295,
@@ -101331,6 +102966,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1125,
@@ -101391,6 +103031,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-08-10": {
         "upsell": null,
         "actual": 1125,
@@ -101519,6 +103164,51 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 1995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4492-CUSA13276_00-GUNGRAVEVREUR000",
+    "name": "GUNGRAVE VR",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4492-CUSA13335_00-GAMESET000000000",
+    "name": "GUNGRAVE VR: Loaded Coffin Edition",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6395,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4492-CUSA13335_00-GUNGRAVEVREUR002",
+    "name": "GUNGRAVE VR U.N",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
         "strikethrough": null
       }
     }
@@ -101671,6 +103361,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 3147,
+        "actual": 6295,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 6295,
@@ -101740,6 +103435,21 @@
         "upsell": null,
         "actual": 3495,
         "strikethrough": 8995
+      }
+    }
+  },
+  {
+    "sku": "EP4497-CUSA13478_00-0000000000000001",
+    "name": "Thronebreaker: The Witcher Tales",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4395,
+        "strikethrough": null
       }
     }
   },
@@ -102075,6 +103785,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -102494,6 +104209,21 @@
     }
   },
   {
+    "sku": "EP4529-CUSA11646_00-ARCADREAMRIPVR01",
+    "name": "Arca's Path VR",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": 2470,
+        "actual": 2745,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4530-CUSA01294_00-GOTYEDITIOBUNDLE",
     "name": "BADLAND: Game of the Year Edition",
     "releaseDate": "2015-05-28",
@@ -102573,6 +104303,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 2395,
@@ -102968,6 +104703,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 5395,
@@ -103926,6 +105666,21 @@
     }
   },
   {
+    "sku": "EP4731-CUSA13397_00-0000000000000000",
+    "name": "Rush VR",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": 3196,
+        "actual": 3995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4738-CUSA10814_00-0000000000000000",
     "name": "Slyde",
     "releaseDate": "2018-03-29",
@@ -104033,6 +105788,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 3197,
+        "actual": 6395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 3495,
@@ -104166,6 +105926,21 @@
     }
   },
   {
+    "sku": "EP4871-CUSA12137_00-THEFIRSTTREEGAME",
+    "name": "The First Tree",
+    "releaseDate": "2018-11-30",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1945,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4908-CUSA11687_00-EXTINCTIONDELPRE",
     "name": "Extinction: Deluxe Edition",
     "releaseDate": "2018-04-10",
@@ -104246,6 +106021,21 @@
     }
   },
   {
+    "sku": "EP4908-CUSA13203_00-OVERRIDEBASEGAME",
+    "name": "Override: Mech City Brawl",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP4908-CUSA13203_00-OVERRIDEDELPREOR",
     "name": "Override: Mech City Brawl - Super Charged Mega Edition",
     "releaseDate": "2018-12-04",
@@ -104254,6 +106044,21 @@
     ],
     "history": {
       "2018-07-13": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4908-CUSA13203_00-OVERRIDEDELUXE00",
+    "name": "Override: Mech City Brawl - Super Charged Mega Edition",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
         "upsell": null,
         "actual": 6995,
         "strikethrough": null
@@ -104331,6 +106136,21 @@
       "2018-04-03": {
         "upsell": null,
         "actual": 1945,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP4946-CUSA14087_00-PRISONBOSSVREURO",
+    "name": "Prison Boss VR",
+    "releaseDate": "2018-12-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
         "strikethrough": null
       }
     }
@@ -104783,6 +106603,21 @@
     }
   },
   {
+    "sku": "EP5257-CUSA13874_00-GG4PS4000000000E",
+    "name": "Gnomes Garden: New home",
+    "releaseDate": "2018-12-05",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 725,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP5257-CUSA13875_00-GG2PS4000000000E",
     "name": "Gnomes Garden 2",
     "releaseDate": "2018-11-14",
@@ -104858,6 +106693,21 @@
     }
   },
   {
+    "sku": "EP5262-CUSA14391_00-PTSBUN0000000000",
+    "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+    "releaseDate": "2018-12-07",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
     "sku": "EP5266-CUSA13350_00-HYAKKICASTLE0001",
     "name": "Haunted Dungeons：Hyakki Castle",
     "releaseDate": "2018-08-30",
@@ -104883,6 +106733,36 @@
       "2018-10-26": {
         "upsell": null,
         "actual": 5695,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP5426-CUSA13893_00-2222444466669999",
+    "name": "Subnautica",
+    "releaseDate": "2018-12-04",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 5495,
+        "strikethrough": null
+      }
+    }
+  },
+  {
+    "sku": "EP5447-CUSA13903_00-POGAME0000000000",
+    "name": "The Grand Tour Game",
+    "releaseDate": "2019-01-15",
+    "platforms": [
+      "PS4"
+    ],
+    "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4895,
         "strikethrough": null
       }
     }
@@ -107017,6 +108897,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 1198,
+        "actual": 3995,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 3995,
@@ -107087,6 +108972,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 1758,
+        "actual": 4395,
+        "strikethrough": null
+      },
       "2018-04-15": {
         "upsell": null,
         "actual": 4395,
@@ -108941,6 +110831,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1445,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1945,
@@ -109918,6 +111813,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3195,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1125,
@@ -110208,7 +112108,7 @@
   },
   {
     "sku": "EP9000-CUSA00231_00-HELLDIVERSMOTG00",
-    "name": "HELLDIVERS™",
+    "name": "HELLDIVERS™ A New Hell Edition",
     "releaseDate": "2015-07-08",
     "platforms": [
       "PS Vita",
@@ -110216,6 +112116,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 795,
+        "strikethrough": 3195
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 975,
@@ -110294,6 +112199,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -110409,6 +112319,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 485,
+        "strikethrough": 1595
+      },
       "2018-11-10": {
         "upsell": null,
         "actual": 1595,
@@ -110823,6 +112738,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1595,
@@ -111113,6 +113033,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 3495
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1125,
@@ -111205,6 +113130,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 2695
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2695,
@@ -111230,6 +113160,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 2695
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2695,
@@ -111255,6 +113190,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1295,
+        "strikethrough": 2695
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2695,
@@ -111330,6 +113270,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 2518,
+        "actual": 6295,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2695,
@@ -112180,6 +114125,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3495,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": 2795,
         "actual": 3495,
@@ -112275,6 +114225,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": 2798,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": 2795,
         "actual": 3495,
@@ -112555,6 +114510,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 2395,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 1595,
@@ -112920,6 +114880,11 @@
       "PS3"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 975,
+        "strikethrough": 3573
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 3573,
@@ -115456,6 +117421,11 @@
       "PSP®"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 325,
+        "strikethrough": 795
+      },
       "2017-12-23": {
         "upsell": null,
         "actual": 795,
@@ -116330,6 +118300,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1295,
@@ -116415,6 +118390,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 3095,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 795,
@@ -117284,6 +119264,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-11-21": {
         "upsell": null,
         "actual": 795,
@@ -117364,6 +119349,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 2095,
@@ -117389,6 +119379,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 1595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 645,
@@ -117576,6 +119571,11 @@
       "PS Vita"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 4595,
+        "strikethrough": null
+      },
       "2018-07-27": {
         "upsell": null,
         "actual": 1595,
@@ -118712,6 +120712,11 @@
       "PS4"
     ],
     "history": {
+      "2018-12-08": {
+        "upsell": null,
+        "actual": 6995,
+        "strikethrough": null
+      },
       "2018-07-13": {
         "upsell": null,
         "actual": 8995,
